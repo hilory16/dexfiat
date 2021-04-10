@@ -11864,7 +11864,7 @@ font-family:"Font Awesome 5 Brands";
  font-weight:400;
  font-display:block;
  src:url(https://stratus-3c99.kxcdn.com/stratus/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.eot);
- src:url(https://stratus-3c99.kxcdn.com/stratus/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),url(https://stratus-3c99.kxcdn.com/stratus/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff2) format("woff2"),url(https://stratus-3c99.kxcdn.com/stratus/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff) format("woff"),url(https://stratus-3c99.kxcdn.com/stratus/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.ttf) format("truetype"),url(https://stratus-3c99.kxcdn.com/stratus/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.svg#fontawesome) format("svg")
+ src:url(https://stratus-3c99.kxcdn.com/stratus/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),url(fonts/fa-brands-400.woff2) format("woff2"),url(https://stratus-3c99.kxcdn.com/stratus/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff) format("woff"),url(https://stratus-3c99.kxcdn.com/stratus/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.ttf) format("truetype"),url(https://stratus-3c99.kxcdn.com/stratus/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.svg#fontawesome) format("svg")
 }
  .fab{
 font-family:"Font Awesome 5 Brands"
@@ -11886,7 +11886,7 @@ font-family:"Font Awesome 5 Free";
  font-weight:900;
  font-display:block;
  src:url(https://stratus-3c99.kxcdn.com/stratus/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.eot);
- src:url(https://stratus-3c99.kxcdn.com/stratus/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(https://stratus-3c99.kxcdn.com/stratus/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff2) format("woff2"),url(https://stratus-3c99.kxcdn.com/stratus/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff) format("woff"),url(https://stratus-3c99.kxcdn.com/stratus/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.ttf) format("truetype"),url(https://stratus-3c99.kxcdn.com/stratus/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.svg#fontawesome) format("svg")
+ src:url(https://stratus-3c99.kxcdn.com/stratus/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(fonts/fa-solid-900.woff2) format("woff2"),url(https://stratus-3c99.kxcdn.com/stratus/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff) format("woff"),url(https://stratus-3c99.kxcdn.com/stratus/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.ttf) format("truetype"),url(https://stratus-3c99.kxcdn.com/stratus/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.svg#fontawesome) format("svg")
 }
  .fa,.far,.fas{
 font-family:"Font Awesome 5 Free"
@@ -28886,7 +28886,7 @@ background:#fbfcfd;
  @font-face{
 font-family:"themovation-icons";
  src:url("https://stratus-3c99.kxcdn.com/stratus/wp-content/themes/stratusx/assets/fonts/themovation-icons.eot");
- src:url("https://stratus-3c99.kxcdn.com/stratus/wp-content/themes/stratusx/assets/fonts/themovation-icons.eot?#iefix") format("embedded-opentype"), url("https://stratus-3c99.kxcdn.com/stratus/wp-content/themes/stratusx/assets/fonts/themovation-icons.woff") format("woff"), url("https://stratus-3c99.kxcdn.com/stratus/wp-content/themes/stratusx/assets/fonts/themovation-icons.ttf") format("truetype"), url("https://stratus-3c99.kxcdn.com/stratus/wp-content/themes/stratusx/assets/fonts/themovation-icons.svg#themovation-icons") format("svg");
+ src:url("https://stratus-3c99.kxcdn.com/stratus/wp-content/themes/stratusx/assets/fonts/themovation-icons.eot?#iefix") format("embedded-opentype"), url("fonts/themovation-icons.woff") format("woff"), url("https://stratus-3c99.kxcdn.com/stratus/wp-content/themes/stratusx/assets/fonts/themovation-icons.ttf") format("truetype"), url("https://stratus-3c99.kxcdn.com/stratus/wp-content/themes/stratusx/assets/fonts/themovation-icons.svg#themovation-icons") format("svg");
  font-weight:normal;
  font-style:normal
 }

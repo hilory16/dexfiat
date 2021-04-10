@@ -51,3 +51,30 @@ header{
     font-family:"DM Sans",Sans-serif;
     libe-height:16px;
 }
+
+.socials__foot{
+    a{
+        color:#fff;
+        li{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            background: #000;
+            height: 40px;
+            width: 120px;
+            border-radius: 30px;
+            list-style: none;
+            img{
+                width: 20px;
+            }
+        }
+    }
+    a:hover{
+        text-decoration: none;
+    }
+}
+.image-grey{
+    filter: grayscale(1);
+    opacity: .5;
+    
+}

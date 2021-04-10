@@ -71,7 +71,7 @@ header nav ul a:hover {
 
 .roadmap main {
   min-width: 300px;
-  max-width: 80%;
+  max-width: 85%;
 }
 .roadmap .roadmap__item {
   font-size: 1em;
@@ -130,6 +130,29 @@ header nav ul a:hover {
 }
 .roadmap .roadmap__item p {
   color: #7d7c7c;
+}
+
+.team h2 {
+  font-family: "DM Sans", Sans-serif;
+  font-size: 50px;
+}
+.team .box-inner {
+  margin-bottom: 30px;
+  transition: all 0.6s ease;
+  box-shadow: 0px 2px 60px 0px rgba(0, 94, 251, 0.15);
+  text-align: center;
+  margin-top: 5em;
+  background: #fff;
+  border-radius: 5px;
+  position: relative;
+}
+.team .team__member img {
+  width: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /*# sourceMappingURL=index.css.map */

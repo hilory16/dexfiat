@@ -87,7 +87,7 @@ $white: #ffffff;
 .roadmap{
     main {
         min-width: 300px;
-        max-width: 80%;
+        max-width: 85%;
         // margin: auto;
       }
       
@@ -157,4 +157,35 @@ $white: #ffffff;
       .roadmap__item p{
         color:#7d7c7c;
       }
+}
+.team{
+    h2{
+        font-family: "DM Sans",Sans-serif;
+        font-size: 50px;
+    }
+    .box-inner {
+        margin-bottom: 30px;
+        transition: all .6s ease;
+        box-shadow: 0px 2px 60px 0px rgb(0 94 251 / 15%);
+        // padding: 2em 1.5em;
+        text-align: center;
+        margin-top: 5em;
+        background: #fff;
+        border-radius: 5px;
+        position: relative;
+    }
+    .team__member{
+        // padding-top:100px;
+        img{
+            width: 150px;
+            border-radius: 50%;
+            // position: relative;
+            // top: -75px;
+            // margin-top:-50%;
+            position:absolute;
+            top:0;
+            left:50%;
+            transform: translate(-50%, -50%);
+        }
+    }
 }

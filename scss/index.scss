@@ -76,7 +76,10 @@ header{
 .image-grey{
     filter: grayscale(1);
     opacity: .5;
-    
+    width:55px !important;
+}
+.image-grey.extra-w{
+    width:100px !important;
 }
 
 

@@ -1,3 +1,43 @@
+a, a:hover {
+  text-decoration: none;
+}
+
+il {
+  list-style: none;
+}
+
+header {
+  background: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5000;
+}
+header .logo__container img {
+  width: 165px;
+}
+header nav ul li {
+  list-style: none;
+}
+header nav ul li a {
+  font-size: 17px;
+  color: #fff;
+}
+header nav ul a li {
+  font-size: 17px;
+  color: #fff;
+  background-color: #45F5A1;
+  color: #000;
+  height: 40px;
+  width: 150px;
+  border-radius: 20px;
+  transition: all ease 0.3s;
+}
+header nav ul a:hover {
+  opacity: 0.5;
+}
+
 .banner__desc {
   font-size: 19px;
   font-family: "DM Sans", Sans-serif;

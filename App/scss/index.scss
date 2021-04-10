@@ -11,6 +11,11 @@ li{
     border-radius: 10px;
     border:none;
     outline:none;
+    color:#fff;
+    font-weight:500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .header{
     .logo__container{
@@ -52,6 +57,10 @@ li{
 
     .header{
         margin-bottom: 70px;
+    }
+    .content.white{
+        background: #fff;
+        border-radius: 10px;
     }
 }
 .app__login{
@@ -199,6 +208,103 @@ li{
         }
         
     }
+}
+.market{
+    .wallet__link{
+        background: #009506;
+        border-radius: 10px;
+        width: 172px;
+        height: 58px;
+        margin-left:-40px;
+        margin-bottom:25px;
+
+        span{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 23px;
+
+            color: #FFFFFF;
+        }
+    }
+    h3{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom:20px;
+        color: #494949;
+        
+    }
+    .options{
+        margin-bottom: 14px;
+        .option__item{
+            border: 1px solid rgba(0, 149, 6, .5);
+            box-sizing: border-box;
+            border-radius: 5px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 14px;
+            color: #009506;
+            cursor: pointer;
+            width: 70px;
+            height: 30px;
+            transition: all ease .3s;
+        }
+        .option__item.active, .option__item:hover{
+            border: 1px solid #009506;
+        }
+    }
+    .placard{
+        background: #FFFFFF;
+        border: 1px solid #F3F3F3;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding:20px;
+        h6{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 12px;
+            color: #808080;
+        }
+        .value{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 28px;
+            color: #000000;
+        }
+        .max{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 10px;
+            line-height: 12px;
+            color: #009506;
+        }
+        .chainlink-select{
+            outline:none;
+            border: 1px solid #F3F3F3;
+            box-sizing: border-box;
+            border-radius: 5px;
+            width: 106px;
+            height: 30px;
+        }
+        .select__token{
+            background: #FFF8E0;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+            border-radius: 10px;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 12px;
+            width: 126px;
+            height: 35px;
+            color: #009506;
+            cursor: pointer;
+        }
+    }
+
 }
 
 @media (max-width:767px){

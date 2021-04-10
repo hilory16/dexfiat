@@ -1,0 +1,212 @@
+a, a:hover{
+    text-decoration:none;
+}
+li{
+    list-style: none;
+}
+.button__1{
+    width: 320px;
+    height: 47px;
+    background: #009506;
+    border-radius: 10px;
+    border:none;
+    outline:none;
+}
+.header{
+    .logo__container{
+        img{
+
+        }
+    }
+    .right{
+        ul{
+            .pool{
+                background: rgba(0,149,6,.1);
+                border-radius: 10px;
+                padding:16px 18px;
+            }
+            li{
+
+            }
+            li img{
+                
+            }
+            li span{
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 23px;
+                color: #009506;  
+            }   
+            li a{
+                
+            }
+        }
+    }
+}
+.user__area{
+    padding:40px 0;
+    font-family: Roboto;
+    background: linear-gradient(180deg, rgba(119, 255, 124, 0.1) 0%, rgba(255, 194, 12, 0.1) 100%);
+    min-height: 100vh;
+
+    .header{
+        margin-bottom: 70px;
+    }
+}
+.app__login{
+    min-height: 100vh;
+    .container{
+        min-height: 100vh;
+    }
+    .content{
+        img{
+            margin-bottom: 80px;
+        }
+        h2{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+            margin-bottom: 37px;
+            color: #494949;
+        }
+    }
+    .content form{
+        input{
+            display: block;
+            width: 320px;
+            height: 47px;
+            background: #E5E5E5;
+            border-radius: 10px;
+            outline:none;
+            border: none;
+            margin-bottom:13px;
+            padding:15px;
+        }
+        
+    }
+}
+
+.recovery__phase{
+    
+    .logo__container{
+        margin-bottom:70px;
+    }
+    .page__icon{
+        margin-bottom: 34px;
+    }
+    h2{
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        color: #494949;
+    }
+    .recovery__desc{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #494949;
+        margin-bottom: 34px;
+    }
+    .recovery__tags{
+        justify-content: center;
+        .tag__item{
+            min-width:  100px;
+            padding: 0 15px;
+            height: 29px;
+            background: rgba(229,229,229,.3);
+            // opacity: 0.3;
+            border: 1px solid rgba(0,0,0,.3);
+            box-sizing: border-box;
+            border-radius: 10px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #494949;
+        }
+    }
+    .copy{
+        img{
+
+        }
+        span{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            color: #009506;
+            margin:35px 0 27px 0;
+            cursor:pointer;
+        }
+    }
+}
+
+.crypto__deposit{
+    .content{
+        background: #fff;
+        border-radius: 10px;
+        .back{
+            margin-bottom: 53px;
+            img{
+
+            }
+            h4{
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 23px;
+                text-align: center;
+
+                color: #494949;
+            }
+        }
+
+        .select__coin{
+            margin-bottom: 45px;
+            img{
+                
+            }
+            p{
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+
+                color: #000000;
+            }
+        }
+
+        .chainlinks{
+            
+            li{
+                padding:12.7px 0;
+                border: 0.4px solid #C4C4C4;
+                box-sizing: border-box;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+
+                color: #000000;
+            }
+        }
+        
+    }
+}
+
+@media (max-width:767px){
+    .recovery__phase{
+        .logo__container{
+            img{
+                width: 150px;
+            }
+        }
+    }
+}

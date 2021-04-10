@@ -192,3 +192,27 @@ $white: #ffffff;
         }
     }
 }
+
+.collapse__faq{
+    .collapse__tab{
+        transition: all ease .3s;
+        height: 0;
+        overflow: hidden;
+        padding: 0 !important;
+        display: block;
+    }
+}
+
+.expand__faq{
+    #elementor-tab-title-2431 {
+        border:none;
+    }
+    .collapse__tab{
+        // display: flex !important;
+        height: auto;
+        padding: 10px 15px 20px 50px !important;
+    }
+    .elementor-toggle-title{
+        padding:10px 20px;
+    }
+}

@@ -1,3 +1,7 @@
+body, html {
+  scroll-behavior: smooth;
+}
+
 a, a:hover {
   text-decoration: none;
 }
@@ -24,7 +28,7 @@ header nav ul li a {
   font-size: 17px;
   color: #fff;
 }
-header nav ul a li {
+header nav ul .app {
   font-size: 17px;
   color: #fff;
   background-color: #45F5A1;
@@ -33,6 +37,7 @@ header nav ul a li {
   width: 150px;
   border-radius: 20px;
   transition: all ease 0.3s;
+  cursor: pointer;
 }
 header nav ul a:hover {
   opacity: 0.5;
@@ -91,9 +96,17 @@ header nav ul a:hover {
   position: relative;
   color: #fff;
 }
+.roadmap .roadmap__item:nth-child(2):before, .roadmap .roadmap__item:first-child:before {
+  background-image: url("../images/check.svg");
+  background-color: #fff;
+}
 .roadmap .roadmap__item:before {
-  content: counter(section);
+  content: "";
   position: absolute;
+  background-image: url("../images/close.svg");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
   border-radius: 50%;
   padding: 10px;
   height: 2.25em;
@@ -177,6 +190,34 @@ header nav ul a:hover {
 }
 .expand__faq .elementor-toggle-title {
   padding: 10px 20px;
+}
+
+.modal__app {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  left: -100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 5000;
+  transition: all ease 0.3s;
+  font-family: "DM Sans", Sans-serif;
+}
+.modal__app .modal__content {
+  background-color: #fff;
+  border-radius: 14px;
+}
+.modal__app .modal__content h3 {
+  color: #000;
+}
+.modal__app .modal__content .close__modal {
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.show__modal__app {
+  left: 0;
 }
 
 /*# sourceMappingURL=index.css.map */

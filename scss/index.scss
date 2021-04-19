@@ -1,3 +1,7 @@
+body, html{
+    scroll-behavior: smooth;
+}
+
 a, a:hover{
     text-decoration: none;
 }
@@ -26,8 +30,8 @@ header{
                     color:#fff;
                 }
             }
-            a {
-                li{
+            // a {
+                .app{
                     font-size: 17px;
                     color:#fff;
                     background-color: #45F5A1;
@@ -36,8 +40,9 @@ header{
                     width:150px;
                     border-radius:20px;
                     transition: all ease .3s;
+                    cursor: pointer;
                 }
-            }
+            // }
             a:hover{
                 opacity: .5;
             }
@@ -108,9 +113,17 @@ $white: #ffffff;
         color: #fff;
         
         //numbers
+        &:nth-child(2):before, &:first-child:before {
+            background-image: url('../images/check.svg');
+            background-color: #fff;
+          }
         &:before {
-          content: counter(section);
+          content: '';
           position: absolute;
+          background-image: url('../images/close.svg');
+          background-size: 50%;
+          background-repeat: no-repeat;
+          background-position:center;
           border-radius: 50%;
           padding: 10px;
           height: 2.25em;
@@ -215,4 +228,31 @@ $white: #ffffff;
     .elementor-toggle-title{
         padding:10px 20px;
     }
+}
+
+.modal__app{
+    position: fixed;
+    top:0;
+    height:100vh;
+    left: -100%;
+    width: 100%;
+    background: rgba(0,0,0,.8);
+    z-index: 5000;
+    transition: all ease .3s;
+    font-family: "DM Sans",Sans-serif;
+    .modal__content{
+        background-color: #fff;
+        border-radius: 14px;
+        h3{
+            color:#000;
+        }
+        .close__modal{
+            text-decoration: underline;
+            cursor: pointer;
+            font-size: 20px;
+        }
+    }
+}
+.show__modal__app{
+    left: 0;
 }

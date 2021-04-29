@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -24,10 +25,10 @@
       href="css/index.css"
     />
     
-    <title>DEXFIAT | CRYPTO DEPOSIT</title>
+    <title>DEXFIAT | YOUR RECOVERY PHASE</title>
   </head>
   <body>
-      <section class="crypto__deposit user__area"> 
+      <section class="user__area market pool"> 
         <div class="container h-100">
             <div class="d-flex align-items-center justify-content-between header">
                 <div class="logo__container">
@@ -50,36 +51,39 @@
             </div>
             
             <div class="col-xl-6 col-lg-8 mx-auto px-0">
-                <div class="content py-5">
-                   <div class="back px-md-5 px-3">
-                       <a href="" class="d-flex align-items-center ">
-                            <img src="img/arrow-back.svg" alt="" class="mr-3" />
-                            <h4 class="mb-0">Crypto Deposit</h4>  
-                       </a>
-                   </div>
+                <div class="content white pb-5 pt-4">
+                    <div class="wallet__link d-flex align-items-center justify-content-center mt-2">
+                      <div class="d-flex align-items-center ">
+                        <img src="img/wallet-icon.svg" alt="" class="mr-2"/>
+                        <span>Wallet</span>
+                      </div>
+                    </div>
 
-                   <div class="d-flex align-items-center select__coin px-md-5 px-3">
-                        <img src="img/coin-flag.svg" alt="" class="mr-2" />
-                       <p class="mb-0">Select Coin</p>
-                   </div>
+                    <div class="pt-md-5">
 
-                   <ul class="m-0 p-0 chainlinks">
-                       <li class="chainlink__item d-flex align-items-center px-5">
-                            <img src="img/chainlink.svg" alt="" class="mr-2" />
-                            <span>Link</span>
-                       </li>
-
-                        <li class="chainlink__item d-flex align-items-center px-5">
-                            <img src="img/chainlink.svg" alt="" class="mr-2" />
-                            <span>Link</span>
-                        </li>
-
-                        <li class="chainlink__item d-flex align-items-center px-5">
-                            <img src="img/chainlink.svg" alt="" class="mr-2" />
-                            <span>Link</span>
-                        </li>
+                      <div class="col-lg-7 col-md-8 px-md-0 mx-auto">
+                        <h3 class="h3__one text-center mb-3">Pool</h3>
+                        <div class="border__shadow__black">
+                            <div class="info__box__one">
+                                <p class="mb-0">Liquidity providers earn a 0.3% fee on all trades proportional to their share of the pool. Fees are added to the pool, accrue in real time and can be claimed by withdrawing your liquidity.</p>
+                            </div>
+                            <div class="option__btns p-4">
+                                <a href="add-liquidity.html" class="">
+                                    <div class="add_liquidity mx-auto d-flex align-items-center justify-content-center mb-4 ">
+                                        <p class="mb-0">Add Liquidity</p>
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="create__liquidity text-center mb-4">
+                                        <p class="mb-0">Create Liquidity</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                         
-                   </ul>
+                      </div>
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -88,6 +92,8 @@
     
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   </body>
 </html>
 

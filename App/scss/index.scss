@@ -917,13 +917,18 @@ li {
         border: 1px solid #009506;
         box-sizing: border-box;
         border-radius: 10px;
+        height: 41px;
         input{
           font-weight: 300;
           font-size: 14px;
           line-height: 16px;
           height: 100%;
           color: #000000; 
-          
+          border-radius: 10px;
+          width: 100%;
+          padding: 0 15px;
+          border: none;
+          outline: none;
         }
         span{
           font-weight: 300;
@@ -932,6 +937,9 @@ li {
           color: #000000;
           height: 100%;
           width: 51px;
+          background: #009706;
+          border-radius: 10px;
+          cursor: pointer;
         }
         img{
 

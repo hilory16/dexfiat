@@ -75,18 +75,18 @@
                                       </div>
                                     </a>
     
-                                    <a href="">
+                                    <a href="crypto-deposit.html">
                                       <div class="balance__actions__item d-flex mr-2">
                                         <img src="img/receive.svg" alt="" class="mr-2">
                                         <p class="mb-0">Recieve </p>
                                       </div>
                                     </a>
-                                    <a href="">
-                                      <div class="balance__actions__item d-flex">
+                                    <!-- <a href=""> -->
+                                      <div class="balance__actions__item d-flex transactions__show">
                                         <img src="img/transactions.svg" alt="" class="mr-2">
                                         <p class="mb-0">Transactions </p>
                                       </div>
-                                    </a>
+                                    <!-- </a> -->
                                     
                                   </div>
                                 </div>
@@ -105,7 +105,7 @@
                                   <!-- <p class="balance mb-4">$23,459</p> -->
 
                                   <div class="balance__actions d-flex pt-2">
-                                    <a href="">
+                                    <a href="fiat-deposit.html">
                                       <div class="balance__actions__item d-flex mr-2">
                                         <img src="img/deposit.svg" alt="" class="mr-2">
                                         <p class="mb-0">Deposit </p>
@@ -277,6 +277,11 @@
         $(this).addClass('active__balance')
         $('.life__market__value').hide()
         $('.transactions__history').show()
+      })
+      $('.transactions__show').click(function(){
+        // console.log("object")
+        $('.life__market__value').hide()
+        // $('.transactions__history').show()
       })
     </script>
   </body>

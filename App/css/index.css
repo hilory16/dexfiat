@@ -96,6 +96,58 @@ li {
   padding: 15px;
 }
 
+.otp__page .content {
+  font-family: "Open Sans", sans-serif;
+}
+.otp__page .content h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #6A6A6A;
+  font-family: "Open Sans", sans-serif;
+}
+.otp__page .content .otp__desc {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 15px;
+  color: #6A6A6A;
+  font-family: "Open Sans", sans-serif;
+}
+.otp__page .content .resend__otp {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 15px;
+  color: #6A6A6A;
+  font-family: "Open Sans", sans-serif;
+}
+.otp__page .content .resend__otp span {
+  color: #009506;
+}
+
+.onboarding .content {
+  overflow-x: hidden;
+}
+.onboarding .content h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  color: #6A6A6A;
+}
+.onboarding .content .onboarding__desc {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 15px;
+  color: #6A6A6A;
+}
+.onboarding .content .onboarding__have__wallet a {
+  color: #009506;
+}
+
 .recovery__phase .logo__container {
   margin-bottom: 70px;
 }
@@ -481,6 +533,369 @@ option.avatar, .chainlink-select-button {
   color: #808080;
 }
 
+.deposit__modal__container {
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  transition: all ease 0.3s;
+}
+.deposit__modal__container h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #009706;
+}
+.deposit__modal__container h4 {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #494949;
+}
+.deposit__modal__container .content .deposit__content {
+  border-radius: 10px;
+  padding: 20px;
+  background: #fff;
+}
+.deposit__modal__container .content .deposit__content .deposit__options {
+  background: #FFF8E0;
+  border-radius: 10px;
+  height: 97px;
+}
+.deposit__modal__container .content .deposit__content .deposit__options h6 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #DAAB02;
+}
+.deposit__modal__container .content .skip {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #808080;
+  cursor: pointer;
+}
+
+.market__value .slick-track {
+  max-width: 100% !important;
+  padding-bottom: 20px;
+  display: flex;
+}
+.market__value .balances__slider .crypto__balance {
+  width: 80%;
+  transition: all ease 0.3s;
+  margin-right: 25px;
+}
+.market__value .balances__slider .balance__item {
+  width: 15%;
+  cursor: pointer;
+  overflow: hidden;
+  background: #009506;
+  height: 204px;
+  border-radius: 20px;
+  padding: 32px 30px;
+  box-shadow: 4px 10px 6px rgba(0, 149, 6, 0.2);
+}
+.market__value .balances__slider .balance__item h3 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+}
+.market__value .balances__slider .balance__item h4 {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+.market__value .balances__slider .balance__item .balance {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: #FFFFFF;
+}
+.market__value .balances__slider .balance__item .balance__actions .balance__actions__item {
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  height: 32px;
+}
+.market__value .balances__slider .balance__item .balance__actions .balance__actions__item p {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+}
+.market__value .balances__slider .balance__item .balance__type {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.market__value .balances__slider .balance__item .balance__type p {
+  transform: rotate(-90deg);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 12px;
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+.market__value .balances__slider .balance__item .main__content {
+  display: none;
+}
+.market__value .balances__slider .fiat__balance {
+  background: #DAAA00;
+  box-shadow: 4px 10px 6px rgba(218, 170, 0, 0.2);
+  width: 15%;
+  transition: all ease 0.3s;
+}
+.market__value .balances__slider .active__balance {
+  width: 80% !important;
+}
+.market__value .balances__slider .active__balance .main__content {
+  display: block;
+}
+.market__value .balances__slider .active__balance .balance__type {
+  display: none;
+}
+.market__value .market__data .heading_titles {
+  border-bottom: 1px solid #E7E7E7;
+  padding-bottom: 15px;
+}
+.market__value .market__data .heading_titles h4 {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: #808080;
+}
+.market__value .market__data .values {
+  border-bottom: 1px solid #E7E7E7;
+  padding: 15px 0;
+}
+.market__value .market__data .values img {
+  width: 42px;
+  height: 42px;
+  margin-right: 5px;
+}
+.market__value .market__data .values .coin__name {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  margin-bottom: 3px;
+}
+.market__value .market__data .values .price {
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+  color: #000000;
+}
+.market__value .market__data .values .increase {
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+  color: #009706;
+}
+.market__value .market__data .values .holding__coin {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+.market__value .market__data .values .holding__fiat {
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+  color: #000000;
+}
+.market__value .transactions__history {
+  display: none;
+}
+.market__value .transactions__history .transaction__type {
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 12px;
+  color: #000000;
+}
+.market__value .transactions__history .amount {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000000;
+}
+.market__value .transactions__history .date {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: #808080;
+}
+
+.fiat__deposit form .form__item.amount {
+  background: #F7F7F7;
+  border-radius: 5px;
+  width: 100%;
+  height: 48px;
+  padding: 10px 0;
+}
+.fiat__deposit form .form__item.amount input {
+  outline: none;
+  background-color: transparent;
+  width: 75%;
+  padding: 0 15px;
+  border: none;
+}
+.fiat__deposit form .form__item.amount select {
+  outline: none;
+  background-color: transparent;
+  width: 20%;
+  padding: 0 15px;
+  border: none;
+  border-left: 1px solid #C4C4C4;
+}
+.fiat__deposit form .payment__methods .payment__method__item {
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+.fiat__deposit form .payment__methods .payment__method__item .icon {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  height: 135px;
+}
+.fiat__deposit form .payment__methods .payment__method__item .text {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #494949;
+}
+.fiat__deposit form .payment__methods .payment__method__item:hover {
+  opacity: 0.5;
+}
+
+.single__coin .content .back .coin__name {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+.single__coin .content .back .coin {
+  width: 25px;
+}
+.single__coin .content .back .coin__value {
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+  color: #000000;
+}
+.single__coin .coin__balance__text {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #000000;
+}
+.single__coin .coin__balance {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+}
+.single__coin .coin__balance__value {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #000000;
+}
+.single__coin .coin__actions .coin__action__item {
+  border-radius: 5px;
+  background: rgba(0, 149, 6, 0.1);
+  padding: 0 10px;
+  height: 40px;
+}
+.single__coin .coin__actions .coin__action__item .text {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #009506;
+}
+.single__coin .transactions h3 {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  border-bottom: 1px solid #E7E7E7;
+  padding-bottom: 28px;
+  color: #000000;
+  margin-bottom: 11px;
+}
+.single__coin .transactions .transaction__details__item h6 {
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+  color: #000000;
+}
+.single__coin .transactions .transaction__details__item .value {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+.single__coin .transactions .transaction__details__item .date {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #808080;
+}
+.single__coin .transactions .sender {
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+  color: #000000;
+}
+
+.wallet__address .content .copy__address .text {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #009506;
+}
+.wallet__address .content .qr__code__container {
+  border: 1px solid #C4C4C4;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 40px;
+}
+.wallet__address .content .qr__code__container img {
+  width: 100%;
+}
+.wallet__address .content .copy__link {
+  border: 1px solid #009506;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.wallet__address .content .copy__link input {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  height: 100%;
+  color: #000000;
+}
+.wallet__address .content .copy__link span {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  height: 100%;
+  width: 51px;
+}
 @media (max-width: 767px) {
   .logo__container img {
     width: 120px;
@@ -497,6 +912,62 @@ option.avatar, .chainlink-select-button {
 
   .crypto__deposit .content .select__coin {
     margin-bottom: 20px;
+  }
+
+  .market__value .balances__slider {
+    margin-right: -28px;
+    margin-left: -28px;
+    background: linear-gradient(180deg, rgba(119, 255, 124, 0.1) 0%, rgba(255, 194, 12, 0.1) 100%);
+    padding-bottom: 47px;
+  }
+
+  .market__value .balances__slider .balance__item {
+    padding: 25px 15px;
+  }
+
+  .market__value .balances__slider .crypto__balance {
+    margin-right: 10px;
+    margin-left: -12px;
+  }
+
+  .market__value .balances__slider .active__balance {
+    padding: 25px 11px;
+  }
+
+  .market__value .balances__slider .active__balance.active__balance__left {
+    margin-left: 28px;
+  }
+
+  .market__value .balances__slider .fiat__balance.active__balance {
+    margin-right: 28px;
+    padding: 25px 25px;
+  }
+
+  .market__value .balances__slider .active__balance {
+    width: 87% !important;
+  }
+
+  .market__value .balances__slider .balance__item {
+    width: 12%;
+  }
+
+  .market__value .balances__slider .fiat__balance {
+    margin-right: -12px;
+  }
+
+  .fiat__deposit form .form__item.amount input {
+    width: 65%;
+  }
+
+  .fiat__deposit form .form__item.amount select {
+    width: 30%;
+  }
+
+  .fiat__deposit form .payment__methods .payment__method__item .icon {
+    height: 80px;
+  }
+  .fiat__deposit form .payment__methods .payment__method__item .icon img {
+    width: 40px;
   }
 }
 

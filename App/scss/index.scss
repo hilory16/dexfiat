@@ -1,0 +1,1017 @@
+a, a:hover {
+    text-decoration: none;
+}
+  
+li {
+    list-style: none;
+}
+.hide-number::-webkit-outer-spin-button,
+.hide-number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.hide-number{
+  -moz-appearance: textfield;
+}
+  
+  .button__1 {
+    width: 320px;
+    height: 47px;
+    background: #009506;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header .right ul .pool {
+    background: rgba(0, 149, 6, 0.1);
+    border-radius: 10px;
+    padding: 16px 18px;
+  }
+  .header .right ul li span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #009506;
+  }
+  .user__area {
+    padding: 40px 0;
+    font-family: Roboto;
+    background: linear-gradient(180deg, rgba(119, 255, 124, 0.1) 0%, rgba(255, 194, 12, 0.1) 100%);
+    min-height: 100vh;
+  }
+  .user__area .header {
+    margin-bottom: 70px;
+  }
+  .user__area .content.white {
+    background: #fff;
+    border-radius: 10px;
+  }
+  
+  .app__login {
+    min-height: 100vh;
+  }
+  .app__login .container {
+    min-height: 100vh;
+  }
+  .app__login .content img {
+    margin-bottom: 80px;
+  }
+  .app__login .content h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-bottom: 37px;
+    color: #494949;
+  }
+  .app__login .content form input {
+    display: block;
+    width: 320px;
+    height: 47px;
+    background: #E5E5E5;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 13px;
+    padding: 15px;
+  }
+  .otp__page .content{
+    font-family: 'Open Sans', sans-serif;
+    h2{
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 33px;
+      color: #6A6A6A;
+      font-family: 'Open Sans', sans-serif;
+    }
+    .otp__desc{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 11px;
+      line-height: 15px;
+      color: #6A6A6A;
+      font-family: 'Open Sans', sans-serif;
+    }
+    .resend__otp{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 11px;
+      line-height: 15px;
+      color: #6A6A6A;  
+      font-family: 'Open Sans', sans-serif;
+      span{
+        color:#009506;
+      }
+    }
+  }
+  .onboarding .content{
+    overflow-x: hidden;
+    h2{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 33px;
+      color: #6A6A6A;
+      // font-family: 'Open Sans', sans-serif;
+    }
+    .onboarding__desc{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 15px;
+      color: #6A6A6A;
+      // font-family: 'Open Sans', sans-serif;
+    }
+    .onboarding__have__wallet a{
+      color:#009506;
+    }
+  }
+  
+  .recovery__phase .logo__container {
+    margin-bottom: 70px;
+  }
+  .recovery__phase .page__icon {
+    margin-bottom: 34px;
+  }
+  .recovery__phase h2 {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #494949;
+  }
+  .recovery__phase .recovery__desc {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #494949;
+    margin-bottom: 34px;
+  }
+  .recovery__phase .recovery__tags {
+    justify-content: center;
+  }
+  .recovery__phase .recovery__tags .tag__item {
+    min-width: 100px;
+    padding: 0 15px;
+    height: 29px;
+    background: rgba(229, 229, 229, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #494949;
+  }
+  .recovery__phase .copy span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #009506;
+    margin: 35px 0 27px 0;
+    cursor: pointer;
+  }
+  
+  .crypto__deposit .content {
+    background: #fff;
+    border-radius: 10px;
+  }
+  .crypto__deposit .content .back {
+    margin-bottom: 53px;
+  }
+  .crypto__deposit .content .back h4 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #494949;
+  }
+  .crypto__deposit .content .select__coin {
+    margin-bottom: 45px;
+  }
+  .crypto__deposit .content .select__coin p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+  }
+  .crypto__deposit .content .chainlinks li {
+    padding: 12.7px 0;
+    border: 0.4px solid #C4C4C4;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+  }
+  
+  .market .wallet__link {
+    background: #009506;
+    border-radius: 10px;
+    width: 172px;
+    height: 58px;
+    margin-left: -40px;
+    margin-bottom: 25px;
+  }
+  .market .wallet__link span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+  }
+  .market h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    color: #494949;
+  }
+  .market .options {
+    margin-bottom: 14px;
+  }
+  .market .options .option__item {
+    border: 1px solid rgba(0, 149, 6, 0.2);
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #009506;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+    transition: all ease 0.3s;
+  }
+  .market .options .option__item.active, .market .options .option__item:hover {
+    border: 1px solid #009506;
+  }
+  .market .placard {
+    background: #FFFFFF;
+    border: 1px solid #F3F3F3;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .market .placard h6 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #808080;
+  }
+  .market .placard .value {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+  }
+  .market .placard .max {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #009506;
+  }
+  
+  .market .placard .select__token {
+    background: #FFF8E0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    width: 126px;
+    height: 35px;
+    color: #009506;
+    cursor: pointer;
+  }
+  .market .limits{
+    .limit__item{
+        input{
+            background: #FFFFFF;
+            border: 1px solid #F3F3F3;
+            box-sizing: border-box;
+            border-radius: 10px;
+            height: 35px;
+            outline: none;
+            width: 100%;
+            padding: 0 15px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 12px;
+            color: #808080;
+        }
+        label{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 12px;
+            color: #808080;
+            margin-bottom: 6px;
+        }
+    }
+  }
+
+  .ui-selectmenu-menu .ui-menu.customicons .ui-menu-item-wrapper {
+    padding: 0.5em 0 0.5em 3em;
+  }
+  .ui-selectmenu-menu .ui-menu.customicons .ui-menu-item .ui-icon {
+    height: 24px;
+    width: 24px;
+    top: 0.1em;
+  }
+  .market .placard .chainlink-select select, .chainlink-select .ui-selectmenu-button.ui-button {
+    outline: none;
+    border: 1px solid #F3F3F3;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 106px;
+    height: 30px;
+    background-color:#fff;
+  }
+  .market .placard .ui-selectmenu-text {
+    display: block;
+    margin-right: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+  /* select with CSS avatar icons */
+  option.avatar, .chainlink-select-button {
+    background-repeat: no-repeat !important;
+    padding-left: 20px;
+  }
+  .avatar .ui-icon {
+    background-position: center;
+  }
+
+  .view__chart, .view__chart:hover{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #009506;
+  }
+  .successful__swap__container{
+    .successful__swap__img{
+        
+    }
+    .swap__text{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        color: #494949;      
+    }
+    .liquidity__container{
+        background: #FFF8E0;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+        border-radius: 10px;
+        h3{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+            color: #009706;
+        }
+        .liquidity__question{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            color: #494949;
+        }
+        .confirm__btns{
+            div{
+                background: #009506;
+                border-radius: 10px;
+                height:41px ;
+                width: 94px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            .no{
+                color: #009506;
+                background: #fff;
+            }
+        }
+    }
+  }
+  .h3__one{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #494949;
+  }
+  .info__box__one{
+    background: #FFF8E0;
+    border-radius: 10px 10px 0px 0px;
+    padding: 25px;
+    p{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 14px;
+
+        color: #009506;
+    }
+  }
+  .pool{
+      
+      .option__btns{
+        .add_liquidity{
+            background: #009506;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+            border-radius: 10px;
+            width: 183px;
+            height: 47px;
+            color: #fff;
+        }
+        .create__liquidity{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #009506;
+        }
+      }
+      
+  }
+  .border__shadow__black{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+  }
+  .add__liquidity__container{
+      h3{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #009506;
+      }
+      .plus{
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        color: #000000;       
+      }
+      .shares{
+        h5{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 12px;
+            color: #808080;
+          }
+          .prices{
+             
+              .prices__item{
+                  h6{
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #000000;
+                    margin-bottom: 5px;
+                  }
+                  p{
+                    font-weight: normal;
+                    font-size: 10px;
+                    line-height: 12px;
+                    color: #808080;
+                  }
+              }
+          }
+      }
+  }
+  .deposit__modal__container{
+    background: rgba(0,0,0,.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    transition: all ease .3s;
+    h2{
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 28px;
+      text-align: center;
+      color: #009706;
+    }
+    h4{
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
+      color: #494949;
+    }
+    .content{
+      .deposit__content{
+        border-radius: 10px;
+        padding: 20px;
+        background: #fff;
+        .deposit__options{
+          background: #FFF8E0;
+          border-radius: 10px;
+          height: 97px;
+          h6{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 14px;
+            color: #DAAB02;       
+          }
+          .icon{
+              
+          }
+        }
+
+      }
+      .skip{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #808080;        
+        cursor: pointer;
+      }
+    }
+  }
+  .market__value{
+    .slick-track{
+      max-width: 100% !important;
+      padding-bottom: 20px;
+      display: flex;
+    }
+    .balances__slider{
+      
+      .crypto__balance{
+        width: 80%;
+        transition: all ease .3s;
+        margin-right:25px;
+      }
+      .balance__item{
+        width:15%; 
+        cursor: pointer;
+        overflow: hidden;
+        background: #009506;
+        height: 204px;
+        border-radius: 20px;
+        padding:32px 30px;
+        box-shadow: 4px 10px 6px rgba(0, 149, 6, .2);
+        h3{
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 14px;
+          color: #FFFFFF;
+        }
+        h4{
+          font-weight: normal;
+          font-size: 24px;
+          line-height: 28px;
+          color: #FFFFFF;
+        }
+        .balance{
+          font-weight: 500;
+          font-size: 10px;
+          line-height: 12px;
+          color: #FFFFFF;
+        }
+        .balance__actions{
+          .balance__actions__item{
+            border-radius: 5px;
+            background: rgba(255,255,255,.1);
+            padding:10px;
+            height: 32px;
+            img{
+
+            }
+            p{
+              font-weight: normal;
+              font-size: 12px;
+              line-height: 14px;
+              color: #FFFFFF;
+            }
+          }
+        }
+        .balance__type{
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          p{
+            transform: rotate( -90deg);
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 12px;
+            color: #FFFFFF;
+            white-space: nowrap;
+          }
+        }
+        .main__content{
+          display: none;
+        }
+        
+      }
+      
+      .fiat__balance{
+        background: #DAAA00;
+        box-shadow: 4px 10px 6px rgba(218, 170, 0, .2);
+        width: 15%;
+        transition: all ease .3s;
+      }
+      .active__balance{
+        width:80% !important; 
+        // margin-right:25px;
+        .main__content{
+          display: block;
+        }
+        .balance__type{
+          display: none;
+        }
+        
+      }
+      
+    }
+    .market__data{
+      .heading_titles{
+        border-bottom: 1px solid #E7E7E7;
+        padding-bottom: 15px;
+        h4{
+          font-weight: bold;
+          font-size: 12px;
+          line-height: 14px;
+          color: #808080;
+        }
+      }
+      .values{
+        border-bottom: 1px solid #E7E7E7;
+        padding: 15px 0;
+        img{
+          width: 42px;
+          height: 42px;
+          margin-right: 5px;
+        }
+        .coin__name{
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 16px;
+          color: #000000;
+          margin-bottom: 3px;
+        }
+        .price{
+          font-weight: 300;
+          font-size: 10px;
+          line-height: 12px;
+          color: #000000;
+        }
+        .increase{
+          font-weight: 300;
+          font-size: 10px;
+          line-height: 12px;
+          color: #009706;     
+        }
+        .holding__coin{
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 16px;
+          color: #000000;
+        }
+        .holding__fiat{
+          font-weight: 300;
+          font-size: 10px;
+          line-height: 12px;
+          color: #000000;
+        }
+      }
+    }
+    .transactions__history{
+      display: none;
+      .transaction__type{
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 12px;
+        color: #000000;
+      }
+      .amount{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        color: #000000;
+      }
+      .date{
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 14px;
+        color: #808080;
+      }
+    }
+  }
+  .fiat__deposit{
+    form{
+      .form__item.amount{
+        background: #F7F7F7;
+        border-radius: 5px;
+        width: 100%;
+        height: 48px;
+        padding:10px 0;
+        input{
+          outline: none;
+          background-color: transparent;
+          width: 75%;
+          padding: 0 15px;
+          border: none;
+        }
+        select{
+          outline: none;
+          background-color: transparent;
+          width: 20%;
+          padding: 0 15px;
+          border: none;
+          border-left: 1px solid #C4C4C4;
+        }
+      }
+      .payment__methods{
+        .payment__method__item{
+          cursor: pointer;
+          transition: all ease .3s;
+          .icon{
+            background: #FFFFFF;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+            border-radius: 10px;
+            height: 135px;
+            
+            img{
+
+            }
+          }
+          .text{
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 14px;
+            color: #494949;
+          }
+        }
+        .payment__method__item:hover{
+          opacity: .5;
+        }
+      }
+    }
+  }
+  .single__coin{
+    .content .back{
+      .coin__name{
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        margin-bottom: 5px;
+      }
+      .coin{
+        width: 25px;
+      }
+      .coin__value{
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 12px;
+
+        color: #000000;
+
+      }
+    }
+    .coin__balance__text{
+      font-weight: 300;
+      font-size: 12px;
+      line-height: 14px;
+      text-align: center;
+      color: #000000;
+    }
+    .coin__balance{
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 28px;
+      text-align: center;
+      color: #000000;
+    }
+    .coin__balance__value{
+      font-weight: 300;
+      font-size: 12px;
+      line-height: 14px;
+      text-align: center;
+      color: #000000;
+    }
+    .coin__actions{
+      .coin__action__item{
+        border-radius: 5px;
+        background: rgba(0, 149, 6, .1);
+        padding: 0 10px;
+        height: 40px;
+        .icon{
+
+        }
+        .text{
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 14px;
+          color: #009506;
+        }
+      }
+    }
+    .transactions{
+      h3{
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        border-bottom: 1px solid #E7E7E7;
+        padding-bottom: 28px;
+        color: #000000;
+        margin-bottom: 11px;
+      }
+      .transaction__details{
+
+      }
+      .transaction__details__item{
+        h6{
+          font-weight: 300;
+          font-size: 10px;
+          line-height: 12px;
+          color: #000000;
+        }
+        .value{
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 16px;
+          color: #000000
+        }
+        .date{
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 14px;
+          color: #808080;
+        }
+      }
+      .sender{
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 12px;
+        color: #000000;
+      }
+    }
+  }
+  .wallet__address{
+    .content{
+      .copy__address{
+        .text{
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 14px;
+          color: #009506;
+        }
+      }
+      .qr__code__container{
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 20px;
+        padding: 40px;
+        img{
+          width:100%;
+        }
+      }
+      .copy__link{
+        border: 1px solid #009506;
+        box-sizing: border-box;
+        border-radius: 10px;
+        height: 41px;
+        input{
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 16px;
+          height: 100%;
+          color: #000000; 
+          border-radius: 10px;
+          width: 100%;
+          padding: 0 15px;
+          border: none;
+          outline: none;
+        }
+        span{
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 16px;
+          color: #000000;
+          height: 100%;
+          width: 51px;
+          background: #009706;
+          border-radius: 10px;
+          cursor: pointer;
+        }
+        img{
+
+        }
+      }
+    }
+  }
+  @media (max-width: 767px) {
+    .logo__container img {
+      width: 120px;
+    }
+    .header{
+        .right{
+            .pool{
+                border-radius: 10px;
+                padding: 10px 14px;
+            }
+        }
+    }
+    .crypto__deposit .content .back{
+        margin-bottom: 30px;
+    }
+    .crypto__deposit .content .select__coin{
+        margin-bottom: 20px;
+    }
+    .market__value{
+      .balances__slider{
+        margin-right: -28px;
+        margin-left: -28px;
+        background: linear-gradient( 180deg, rgba(119, 255, 124, 0.1) 0%, rgba(255, 194, 12, 0.1) 100%);
+        padding-bottom: 47px;
+      }
+    }
+    .market__value .balances__slider .balance__item {
+      padding: 25px 15px;
+    }
+    .market__value .balances__slider .crypto__balance{
+      margin-right: 10px;
+      margin-left: -12px;
+    }
+    .market__value .balances__slider .active__balance {
+      padding: 25px 11px;
+    }
+    .market__value .balances__slider .active__balance.active__balance__left {
+      margin-left: 28px;
+    }
+    .market__value .balances__slider .fiat__balance.active__balance{
+      margin-right: 28px;
+      padding: 25px 25px;
+    }
+    .market__value .balances__slider .active__balance{
+      width: 87% !important;
+    }
+    
+    .market__value .balances__slider .balance__item {
+      width: 12%;
+    }
+    .market__value .balances__slider .fiat__balance {
+      margin-right: -12px;
+    }
+    .fiat__deposit form .form__item.amount input {
+      width: 65%;
+    }
+    .fiat__deposit form .form__item.amount select {
+      width: 30%;
+    }
+    .fiat__deposit form .payment__methods .payment__method__item{
+      .icon{
+        height: 80px;
+        img{
+          width: 40px;
+        }
+      }
+    }
+  }

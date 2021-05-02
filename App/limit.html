@@ -60,26 +60,25 @@
                       </div>
                     </div>
                   </a>
-                    
 
                     <div class="">
                       <h3 class="text-center">Swap</h3>
 
                       <div class="options d-flex align-items-center justify-content-center">
-                        <div class="options d-flex align-items-center justify-content-center">
-                          <a href="market.html">
-                            <div class="option__item mr-3 active d-flex align-items-center justify-content-center active">
-                              <p class="mb-0">Market</p>
-                            </div>
-                          </a>  
-  
-                          <a href="limit.html">
-                            <div class="option__item d-flex align-items-center justify-content-center " >
-                              <p class="mb-0">Limit</p>
-                            </div>
-                          </a>
-                        </div>
+                        <a href="market.html">
+                          <div class="option__item mr-3 d-flex align-items-center justify-content-center">
+                            <p class="mb-0">Market</p>
+                          </div>
+                        </a>  
+
+                        <a href="limit.html">
+                          <div class="option__item d-flex align-items-center justify-content-center active" >
+                            <p class="mb-0">Limit</p>
+                          </div>
+                        </a>
                       </div>
+
+                      
 
                       <div class="col-lg-8 col-md-10 px-md-0 mx-auto">
                         <div class="d-flex justify-content-between align-items-center placard mb-4">
@@ -103,6 +102,24 @@
                           </div>
                         </div>
 
+                        <div class="limits mb-4">
+                          <div class="row col-md-11 mx-auto px-0">
+                            <div class="col-6">
+                              <div class="limit__item">
+                                <label class="d-block">Price</label>
+                                <input type="number" class="hide-number" name="" id="">
+                              </div>
+                            </div>
+  
+                            <div class="col-6">
+                              <div class="limit__item">
+                                <label class="d-block">Expires In</label>
+                                <input type="number" class="hide-number" name="" id="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
 
                         <div class="d-flex justify-content-between align-items-center placard mb-4">
                           <div class="left">
@@ -121,8 +138,8 @@
                       </div>
 
                       <div class="d-flex justify-content-center col-lg-8 col-md-10 mx-auto px-md-0 mb-4">
-                          <a href="successful-swap.html" class="w-100 d-block">
-                              <div class="button__1 w-100"><span>Make Swap</span></div>
+                          <a href="recovery.html" class="w-100 d-block">
+                              <div class="button__1 w-100"><span>Limit</span></div>
                           </a>
                       </div>
                       
@@ -133,45 +150,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="deposit__modal__container">
-          <div class="content d-flex align-items-center justify-content-center w-100 h-100">
-            <div class="col-xl-3 col-lg-4 col-md-6 ">
-              <div class="px-5 py-4 deposit__content">
-                <h4 class="text-center pt-3">Fund Your wallet</h4>
-                <h2 class="text-center mb-5">MAKE DEPOSIT</h2>
-                <div class="row mb-5">
-                  <div class="col-6 pr-2">
-                    <a href="crypto-deposit.html">
-                      <div class="deposit__options d-flex align-items-center justify-content-center">
-                        <div class="">
-                          <img src="img/coins.svg" alt="" class="icon mb-3">
-                          <h6 class="text-center mb-0">Crypto</h6>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-
-                  <div class="col-6 pl-2">
-                    <a href="fiat-deposit.html">
-                      <div class="deposit__options d-flex align-items-center justify-content-center">
-                        <div class="">
-                          <img src="img/cash-payment.svg" alt="" class="icon mb-3">
-                          <h6 class="text-center mb-0">Fiat</h6>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  
-                  </div>
-                  <div class="d-flex justify-content-end">
-                    <p class="skip skip__deposit mb-3">Skip</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -211,9 +189,6 @@
           // .iconselectmenu( "menuWidget")
           //   .addClass( "ui-menu-icons avatar" );
       } );
-      $('.skip__deposit').click(function(){
-        $('.deposit__modal__container').css({left:'-100%'})
-      })
     </script>
   </body>
 </html>

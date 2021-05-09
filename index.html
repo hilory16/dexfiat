@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta name="description" content=""/>
+    <meta name="description" content="A decentralized fiat and crypto gateway for all"/>
     <link rel="icon" href="images/logo/favicon.png" />
     <script type="text/javascript" src="https://beacon-v2.helpscout.net/static/js/main.a94be65a.js"></script><script type="text/javascript" src="https://beacon-v2.helpscout.net/static/js/vendor.f771a183.js"></script><script type="text/javascript" async="" src="https://beacon-v2.helpscout.net"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -29,6 +29,149 @@
     <script>var ms_grabbing_curosr='https://demo.themovation.com/stratus/wp-content/plugins/masterslider/public/assets/css/common/grabbing.cur',ms_grab_curosr='https://demo.themovation.com/stratus/wp-content/plugins/masterslider/public/assets/css/common/grab.cur';</script>
     <script src="js/html5shiv.min.js"></script>
     <script src="js/respond.min.js"></script>
+    <style>
+        @media only screen and (max-width: 830px) {
+            header nav ul li a {
+                font-size: 15px;
+                color: #fff;
+            }
+
+            .app__modal__trigger{
+                display: unset;
+                display: none !important;
+            }
+
+            .logo__container img{
+                width: 38% !important;
+                padding-left: 9px;
+            }
+
+            elementor-section.elementor-section-boxed>.elementor-container {
+                padding: 0 !important;
+                margin: 0 !important;
+            }
+
+            .elementor-8044 .elementor-element.elementor-element-ddad7e7 .elementor-heading-title {
+                font-size: 33px !important;
+            }
+
+            .mobile-wrap{
+                margin-top: 42px;
+            }
+
+            .banner__desc{
+                padding: 0;
+                font-size: 18px;
+            }
+
+            .elementor-element-91c0975{
+                margin-bottom: 5px;
+            }
+
+            .elementor-section-boxed .elementor-container {
+                width: calc(100% - 40px) !important;
+            }
+
+            .elementor-heading-title __h2{
+                font-size: 33px !important;
+            }
+
+            .works_desc{
+                max-width: 100% !important;
+                width: 95% !important;
+            }
+
+            #how-it-works-content h2{
+                font-size: 28px !important;
+            }
+
+            #how-it-works-content h4{
+                font-size: 16px !important;
+            }
+
+            .elementor-toggle-title{
+                padding: 10px;
+            }
+
+            section.roadmap{
+                padding: 0 !important;
+            }
+
+            .team h2 {
+                font-size: 32px;
+                margin-bottom: 0px !important;
+            }
+
+            .team .team__member img {
+                margin-top: 20px;
+            }
+
+            #footer-element{
+                width: 100%;
+                padding: 2%;
+            }
+
+            #footer-element h1{
+                font-size: 33px;
+            }
+
+            .socials__foot a li {
+                width: 42px !important;
+            }
+
+            .works_desc{
+                max-width: 100% !important;
+                width: 100% !important;
+            }
+
+            #mobile_logo{
+                display: inline-block !important;
+                float: right;
+                color: #000;
+                background: #71f6a2;
+                padding: 7px 18px;
+                border-radius: 50px;
+                font-weight: bold;
+            }
+        }
+
+        #mobile_logo {
+            display: none;
+        }
+
+        .roadmap .roadmap__item:nth-child(5):before,
+        .roadmap .roadmap__item:nth-child(6):before,
+        .roadmap .roadmap__item:nth-child(7):before,
+        .roadmap .roadmap__item:nth-child(8):before,
+        .roadmap .roadmap__item:nth-child(9):before,
+        .roadmap .roadmap__item:nth-child(10):before,
+        .roadmap .roadmap__item:nth-child(11):before,
+        .roadmap .roadmap__item:nth-child(12):before,
+        .roadmap .roadmap__item:nth-child(13):before,
+        .roadmap .roadmap__item:nth-child(14):before
+        {
+            background-image: url("../images/loading.png") !important;
+            background-color: #fff;
+        }
+
+        .roadmap .roadmap__item:nth-child(3):before,
+        .roadmap .roadmap__item:nth-child(4):before,
+        roadmap .roadmap__item:nth-child(2):before,
+        .roadmap .roadmap__item:nth-child(1):before
+        {
+            background-image: url("../images/check.svg") !important;
+            background-color: #4fe19b;
+        }
+
+        .elementor-toggle .elementor-tab-title {
+            padding: 5px;
+        }
+
+        .elementor-toggle .elementor-toggle-title {
+            font-size: 14px;
+        }
+
+    </style>
     <title>Dexfiat | Homepage</title>
 </head>
 <body class="page-template-default page page-id-8044 theme-stratusx groovy_menu_2-4-6 _masterslider _msp_version_3.4.10 woocommerce-js ehf-template-stratusx ehf-stylesheet-stratusx-child elementor-default elementor-kit-7569 elementor-page elementor-page-8044 th-sticky-header loaded headhesive e--ua-blink e--ua-chrome e--ua-webkit" data-elementor-device-mode="desktop" data-new-gr-c-s-check-loaded="14.1005.0" data-gr-ext-installed="">
@@ -36,20 +179,23 @@
     <header class="py-4">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6 pl-0">
+                <div class="col-lg-4 pl-0 pr-0">
                     <div class="logo__container">
-                        <a href=""><img src="images/new-logo.png" alt="" /></a>
-                        <!--<a href=""><img src="images/logo-white.png" alt="" /></a>-->
+                        <a href="#" class="d-inline">
+                            <img src="images/new-logo.png" alt="" />
+                        </a>
+                        <a href="#" id="mobile_logo">App</a>
                     </div>
                 </div>
-                
-                <nav class="col-lg-6 pr-0 d-flex justify-content-end">
+
+                <nav class="col-12 col-lg-8 pr-md-0 p-0 d-md-flex justify-content-md-end mt-3 md-mt-0">
                     <ul class="m-0 p-0 d-flex align-items-center">
-                        <li class="mr-4"><a  href="dexfiat_whitepaper_.pdf" target="_blank">Whitepaper</a></li>
-                        <li class="mx-4"><a href="#roadmap">Roadmap</a></li>
-                        <li class="mx-4"><a href="#faq">FAQ</a></li>
+                        <li class="mx-auto mx-md-4"><a  href="dexfiat_whitepaper_.pdf" target="_blank">Whitepaper</a></li>
+                        <li class="mx-auto mx-md-4"><a href="#roadmap">Roadmap</a></li>
+                        <li class="mx-auto mx-md-4"><a href="#faq">FAQ</a></li>
+                        <li class="mx-auto mx-md-4"><a href="#how-it-works">How It Works</a></li>
                         <!-- <a href="" class="ml-4" class=" a"> -->
-                            <li class="d-flex align-items-center justify-content-center app app__modal__trigger"><span>App</span></li>
+                        <li class="d-flex align-items-center justify-content-center app app__modal__trigger"><span>App</span></li>
                         <!-- </a> -->
                     </ul>
                 </nav>
@@ -71,7 +217,7 @@
                                         \
                                         <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-fde4d6f" data-id="fde4d6f" data-element_type="column">
                                             <div class="elementor-column-wrap elementor-element-populated">
-                                                <div class="elementor-widget-wrap">
+                                                <div class="elementor-widget-wrap mobile-wrap">
                                                     <section class="elementor-section elementor-inner-section elementor-element elementor-element-bcb57d2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="bcb57d2" data-element_type="section">
                                                         <div id="particles-js"></div>
                                                         <div class="elementor-container elementor-column-gap-default">
@@ -104,12 +250,14 @@
                                                                             <div class="elementor-element elementor-element-b34eca7 elementor-widget__width-initial elementor-widget elementor-widget-button animated fadeInUp" data-id="b34eca7" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:150}" data-widget_type="button.default">
                                                                                 <div class="elementor-widget-container">
                                                                                     <div class="elementor-button-wrapper">
-                                                                                        <a href="https://demo.themovation.com/stratus/contact-dark/" class="elementor-button-link elementor-button elementor-size-lg" role="button">
+                                                                                        <a href="https://forms.gle/f51M3gwiqZrH3VxH6" class="elementor-button-link elementor-button elementor-size-lg" role="button">
                                                                         <span class="elementor-button-content-wrapper">
                                                                         <span class="elementor-button-icon elementor-align-icon-right">
                                                                         <i aria-hidden="true" class="fas fa-arrow-right"></i>
                                                                         </span>
-                                                                        <span class="elementor-button-text">Join Whitelist</span>
+                                                                        <span class="elementor-button-text">
+                                                                            Join Whitelist
+                                                                        </span>
                                                                         </span>
                                                                                         </a>
                                                                                     </div>
@@ -129,7 +277,7 @@
                                                                         <div class="elementor-widget-wrap">
                                                                             <div class="elementor-element elementor-element-07ddfac elementor-widget elementor-widget-heading animated fadeInUp" data-id="07ddfac" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default" data-aos="fade-right" data-aos-duration="1500">
                                                                                 <div class="elementor-widget-container">
-                                                                                    <h2 class="elementor-heading-title elementor-size-default">Powerful features</h2>
+                                                                                    <h2 class="elementor-heading-title elementor-size-default __h2">Powerful features</h2>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="elementor-element elementor-element-ed73719 elementor-widget elementor-widget-heading animated fadeInUp" data-id="ed73719" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
@@ -165,11 +313,11 @@
                                                                                 </div>
                                                                             </div>
                                                                             <!--<div class="elementor-element elementor-element-0f36157 elementor-widget elementor-widget-heading" data-id="0f36157" data-element_type="widget" data-widget_type="heading.default">-->
-                                                                                <!--<div class="elementor-widget-container">-->
-                                                                                    <!--<p class="elementor-heading-title elementor-size-default d-none">-->
-                                                                                        <!--<a href="#0">Learn more »</a>-->
-                                                                                    <!--</p>-->
-                                                                                <!--</div>-->
+                                                                            <!--<div class="elementor-widget-container">-->
+                                                                            <!--<p class="elementor-heading-title elementor-size-default d-none">-->
+                                                                            <!--<a href="#0">Learn more »</a>-->
+                                                                            <!--</p>-->
+                                                                            <!--</div>-->
                                                                             <!--</div>-->
                                                                         </div>
                                                                     </div>
@@ -195,11 +343,11 @@
                                                                                 </div>
                                                                             </div>
                                                                             <!--<div class="elementor-element elementor-element-db77db3 elementor-widget elementor-widget-heading" data-id="db77db3" data-element_type="widget" data-widget_type="heading.default">-->
-                                                                                <!--<div class="elementor-widget-container">-->
-                                                                                    <!--<p class="elementor-heading-title elementor-size-default d-none">-->
-                                                                                        <!--<a href="#0">Learn more »</a>-->
-                                                                                    <!--</p>-->
-                                                                                <!--</div>-->
+                                                                            <!--<div class="elementor-widget-container">-->
+                                                                            <!--<p class="elementor-heading-title elementor-size-default d-none">-->
+                                                                            <!--<a href="#0">Learn more »</a>-->
+                                                                            <!--</p>-->
+                                                                            <!--</div>-->
                                                                             <!--</div>-->
                                                                         </div>
                                                                     </div>
@@ -231,9 +379,9 @@
                                                                                 </div>
                                                                             </div>
                                                                             <!--<div class="elementor-element elementor-element-7542d40 elementor-widget elementor-widget-heading" data-id="7542d40" data-element_type="widget" data-widget_type="heading.default">-->
-                                                                                <!--<div class="elementor-widget-container d-none">-->
-                                                                                    <!--<p class="elementor-heading-title elementor-size-default"><a href="#0">Learn more »</a></p>-->
-                                                                                <!--</div>-->
+                                                                            <!--<div class="elementor-widget-container d-none">-->
+                                                                            <!--<p class="elementor-heading-title elementor-size-default"><a href="#0">Learn more »</a></p>-->
+                                                                            <!--</div>-->
                                                                             <!--</div>-->
                                                                         </div>
                                                                     </div>
@@ -259,9 +407,9 @@
                                                                                 </div>
                                                                             </div>
                                                                             <!--<div class="elementor-element elementor-element-4ffc32f elementor-widget elementor-widget-heading" data-id="4ffc32f" data-element_type="widget" data-widget_type="heading.default">-->
-                                                                                <!--<div class="elementor-widget-container">-->
-                                                                                    <!--<p class="elementor-heading-title elementor-size-default d-none"><a href="#0">Learn more »</a></p>-->
-                                                                                <!--</div>-->
+                                                                            <!--<div class="elementor-widget-container">-->
+                                                                            <!--<p class="elementor-heading-title elementor-size-default d-none"><a href="#0">Learn more »</a></p>-->
+                                                                            <!--</div>-->
                                                                             <!--</div>-->
                                                                         </div>
                                                                     </div>
@@ -288,10 +436,10 @@
                                                                         <div class="elementor-widget-wrap">
                                                                             <div class="elementor-element elementor-element-1204534 elementor-widget elementor-widget-image" data-id="1204534" data-element_type="widget" data-widget_type="image.default">
                                                                                 <div class="elementor-widget-container">
-                                                                                    <div class="elementor-image"> <img width="600" height="600" src="images/consensys.png" class="attachment-full size-full  image-grey extra-w" alt="" 
-                                                                                        loading="lazy" 
-                                                                                       
-                                                                                        ></div>
+                                                                                    <div class="elementor-image"> <img width="600" height="600" src="images/consensys.png" class="attachment-full size-full  image-grey extra-w" alt=""
+                                                                                                                       loading="lazy"
+
+                                                                                    ></div>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -339,7 +487,7 @@
                                     </div>
                                 </div>
                             </section>
-                            <section class="elementor-section elementor-top-section elementor-element elementor-element-83aa562 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="83aa562" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" >
+                            <section id="how-it-works" class="elementor-section elementor-top-section elementor-element elementor-element-83aa562 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="83aa562" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" >
                                 <div class="elementor-background-overlay"></div>
                                 <div class="elementor-container elementor-column-gap-default">
                                     <div class="elementor-row">
@@ -348,13 +496,16 @@
                                                 <div class="elementor-widget-wrap" data-aos="fade-up"  data-aos-duration="1500">
                                                     <div class="elementor-element elementor-element-8de4542 elementor-widget elementor-widget-heading animated fadeInUp" data-id="8de4542" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
                                                         <div class="elementor-widget-container">
-                                                            <h2 class="elementor-heading-title elementor-size-default">How it Works</h2>
+                                                            <h2 class="elementor-heading-title elementor-size-default __h2">How it Works</h2>
                                                         </div>
                                                     </div>
-                                                    <div style="max-width: 80% !important; width: 70%" class="elementor-element elementor-element-34a3f70 elementor-widget__width-initial elementor-widget elementor-widget-heading animated fadeInUp" data-id="34a3f70" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+                                                    <div class="elementor-element elementor-element-34a3f70 elementor-widget__width-initial elementor-widget elementor-widget-heading animated fadeInUp" data-id="34a3f70" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
                                                         <div class="elementor-widget-container">
-                                                            <p class="elementor-heading-title elementor-size-default">
-                                                                Dexfiat will evolve into enabling peer to peer (p2p) funding algorithm, while the Dexfiat smart contract act as an escrow between the buyer and the seller of Dexfiat commodity such as DNGN. It is a completely new mechanism designed for scalability, liquidity, fairness, safety and low volatility. Dexfiat is connecting the fiat and crypto system.
+                                                            <p class="elementor-heading-title elementor-size-default works_desc">
+                                                                Dexfiat ecosystem enables peer to peer (p2p) funding algorithm, while the Dexfiat smart contract act as an escrow between the buyer and the seller of Dexfiat commodity such as DNGN.
+                                                                It is a completely new mechanism designed for scalability, liquidity, fairness, safety and low volatility.
+                                                                Dexfiat connects the fiat and crypto system.
+                                                                Dexfiat Dex is a decentralized platform that allow users full control of their fund
                                                             </p>
                                                         </div>
                                                     </div>
@@ -371,8 +522,8 @@
                                                                             </div>
                                                                             <div class="elementor-element elementor-element-1bd674b elementor-widget elementor-widget-heading animated fadeIn" data-id="1bd674b" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="heading.default">
                                                                                 <div class="elementor-widget-container">
-                                                                                    <h4 class="elementor-heading-title elementor-size-default"><strong>Create an Account</strong>
-                                                                                        - Create your Non Custodian wallet to hold your token and coins</h4>
+                                                                                    <h4 class="elementor-heading-title elementor-size-default"><strong>Create an Account/Wallet</strong>
+                                                                                        - Create your non-custodian multisig wallet to hold your token and coins</h4>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -395,8 +546,8 @@
                                                                             </div>
                                                                             <div class="elementor-element elementor-element-43ab4c2 elementor-widget elementor-widget-heading animated fadeIn" data-id="43ab4c2" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="heading.default">
                                                                                 <div class="elementor-widget-container">
-                                                                                    <h4 class="elementor-heading-title elementor-size-default"><strong>Deposit</strong>
-                                                                                        - You can deposit fiat or crypto</h4>
+                                                                                    <h4 class="elementor-heading-title elementor-size-default"><strong>Deposit & Withdrawal</strong>
+                                                                                        - You can deposit and withdraw your fiat and crypto anytime</h4>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -406,7 +557,7 @@
                                                         </div>
                                                     </section>
                                                     <section class="elementor-section elementor-inner-section elementor-element elementor-element-43c304e elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="43c304e" data-element_type="section">
-                                                        <div class="elementor-container elementor-column-gap-default">
+                                                        <div class="elementor-container elementor-column-gap-default" id="how-it-works-content">
                                                             <div class="elementor-row">
                                                                 <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-4f41030" data-id="4f41030" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-aos="fade-up-right"  data-aos-duration="1500" data-aos-delay="600">
                                                                     <div class="elementor-column-wrap elementor-element-populated" >
@@ -418,8 +569,8 @@
                                                                             </div>
                                                                             <div class="elementor-element elementor-element-d0bcd15 elementor-widget elementor-widget-heading animated fadeIn" data-id="d0bcd15" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="heading.default">
                                                                                 <div class="elementor-widget-container">
-                                                                                    <h4 class="elementor-heading-title elementor-size-default"><strong>Swap</strong>
-                                                                                        - You can swap your fiat into token. E.g DNGN/DZAR for DFT/ETH</h4>
+                                                                                    <h4 class="elementor-heading-title elementor-size-default"><strong>Swap(buy & sell)</strong>
+                                                                                        - Users can use their DNGN (DNGN is the Dexfiat product pegged at 1 Naira for Nigeria community users) to buy and sell cryptocurrency asset on the Dex by using Limit or Market order. External wallet can also be connected to trade</h4>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -442,8 +593,8 @@
                                                                             </div>
                                                                             <div class="elementor-element elementor-element-90c6df8 elementor-widget elementor-widget-heading animated fadeIn" data-id="90c6df8" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="heading.default">
                                                                                 <div class="elementor-widget-container">
-                                                                                    <h4 class="elementor-heading-title elementor-size-default"><strong>Provide Liquidity</strong>
-                                                                                        - You can provide liquidity and earn LP tokens. When you stake your LP tokens you earn DFT
+                                                                                    <h4 class="elementor-heading-title elementor-size-default"><strong>Liquidity Provision</strong>
+                                                                                        - User can earn by providing liquidity to the pools. The transaction fees are paid to users that provide liquidity, also users can provide liquidity with their DNGN holdings
                                                                                     </h4>
                                                                                 </div>
                                                                             </div>
@@ -465,73 +616,336 @@
                                         <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8c875b3" data-id="8c875b3" data-element_type="column">
                                             <div class="elementor-column-wrap elementor-element-populated">
                                                 <div class="elementor-widget-wrap">
-                                                    <section class="elementor-section elementor-inner-section elementor-element elementor-element-fa22431 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="fa22431" data-element_type="section">
-                                                        <div class="elementor-container elementor-column-gap-default">
-                                                            <div class="elementor-row">
-                                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-812b75a" data-id="812b75a" data-element_type="column">
-                                                                    <div class="elementor-column-wrap elementor-element-populated">
-                                                                        <div class="elementor-widget-wrap">
-                                                                            <div class="elementor-element elementor-element-f6e166e elementor-widget elementor-widget-heading animated fadeInUp" data-id="f6e166e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default" data-aos="fade-down"  data-aos-duration="1500">
-                                                                                <div class="elementor-widget-container">
-                                                                                    <h2 class="elementor-heading-title elementor-size-default">Questions</h2>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </section>
+                                                    <!--<section class="elementor-section elementor-inner-section elementor-element elementor-element-fa22431 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="fa22431" data-element_type="section">-->
+                                                        <!--<div class="elementor-container elementor-column-gap-default">-->
+                                                            <!--<div class="elementor-row">-->
+                                                                <!--<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-812b75a" data-id="812b75a" data-element_type="column">-->
+                                                                    <!--<div class="elementor-column-wrap elementor-element-populated">-->
+                                                                        <!--<div class="elementor-widget-wrap">-->
+                                                                            <!--<div class="elementor-element elementor-element-f6e166e elementor-widget elementor-widget-heading animated fadeInUp" data-id="f6e166e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default" data-aos="fade-down"  data-aos-duration="1500">-->
+                                                                                <!--<div class="elementor-widget-container">-->
+                                                                                    <!--<h2 class="elementor-heading-title elementor-size-default">Questions</h2>-->
+                                                                                <!--</div>-->
+                                                                            <!--</div>-->
+                                                                        <!--</div>-->
+                                                                    <!--</div>-->
+                                                                <!--</div>-->
+                                                            <!--</div>-->
+                                                        <!--</div>-->
+                                                    <!--</section>-->
                                                     <section class="elementor-section elementor-inner-section elementor-element elementor-element-1bb88d0 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="1bb88d0" data-element_type="section" id="faq">
                                                         <div class="elementor-container elementor-column-gap-wider">
                                                             <div class="elementor-row">
-                                                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-aef4ecf animated fadeIn" data-id="aef4ecf" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;}" data-aos="fade-up-right"  data-aos-duration="1500">
+                                                                <div class="elementor-column elementor-col-60 elementor-inner-column elementor-element elementor-element-aef4ecf animated fadeIn" data-id="aef4ecf" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;}" data-aos="fade-up-right"  data-aos-duration="1500">
                                                                     <div class="elementor-column-wrap elementor-element-populated">
                                                                         <div class="elementor-widget-wrap">
-                                                                            <div class="elementor-element elementor-element-eb02f3c elementor-widget__width-initial elementor-widget elementor-widget-heading animated fadeInUp" data-id="eb02f3c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
-                                                                                <div class="elementor-widget-container">
-                                                                                    <p class="elementor-heading-title elementor-size-default">
-                                                                                        Frequently asked questions.
-                                                                                    </p>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="elementor-element elementor-element-f68a719 elementor-widget elementor-widget-spacer" data-id="f68a719" data-element_type="widget" data-widget_type="spacer.default">
-                                                                                <div class="elementor-widget-container">
-                                                                                    <div class="elementor-spacer">
-                                                                                        <div class="elementor-spacer-inner"></div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
+                                                                            <!--<div class="elementor-element elementor-element-eb02f3c elementor-widget__width-initial elementor-widget elementor-widget-heading animated fadeInUp" data-id="eb02f3c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">-->
+                                                                                <!--<div class="elementor-widget-container">-->
+                                                                                    <!--<p class="elementor-heading-title elementor-size-default">-->
+                                                                                        <!--Frequently asked questions.-->
+                                                                                    <!--</p>-->
+                                                                                <!--</div>-->
+                                                                            <!--</div>-->
+                                                                            <!--<div class="elementor-element elementor-element-f68a719 elementor-widget elementor-widget-spacer" data-id="f68a719" data-element_type="widget" data-widget_type="spacer.default">-->
+                                                                                <!--<div class="elementor-widget-container">-->
+                                                                                    <!--<div class="elementor-spacer">-->
+                                                                                        <!--<div class="elementor-spacer-inner"></div>-->
+                                                                                    <!--</div>-->
+                                                                                <!--</div>-->
+                                                                            <!--</div>-->
+                                                                            <h4>Peer-to-peer (P2P) Dex</h4>
                                                                             <div class="elementor-element elementor-element-e8983a0 elementor-widget elementor-widget-toggle" data-id="e8983a0" data-element_type="widget" data-widget_type="toggle.default">
                                                                                 <div class="elementor-widget-container">
                                                                                     <div class="elementor-toggle" role="tablist">
                                                                                         <div class="elementor-toggle-item collapse__faq">
-                                                                                            <div id="elementor-tab-title-2431 " class="d-flex align-items-center elementor-tab-title" data-tab="1" role="tab" aria-controls="elementor-tab-content-2431 " aria-expanded="false"> <span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true"> <span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span> <span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span> </span> <div class="elementor-toggle-title">What is DEXFIAT Crypto?</div></div>
-                                                                                            <div id="elementor-tab-content-2431" class="elementor-tab-content elementor-clearfix collapse__tab" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-2431">DEXFIAT Crypto - A community centric, innovative decentralized Finance (DeFi) project developed by the people, for the people. Our mission is to enable a decentralized community easy, reliable, fast and secure access to fiat and cryptocurrencies while generating revenue to the protocol users and enabling borderless fund transfer.</div>
+                                                                                            <div id="elementor-tab-title-2431 " class="d-flex align-items-center elementor-tab-title" data-tab="1" role="tab"
+                                                                                                 aria-controls="elementor-tab-content-2431 " aria-expanded="false">
+                                                                                                <span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+                                                                                                    <span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+                                                                                                    <span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+                                                                                                </span>
+                                                                                                <div class="elementor-toggle-title p-1 p-md-2">How does the P2P auto trade  work?</div></div>
+                                                                                            <div id="elementor-tab-content-2431" class="elementor-tab-content elementor-clearfix collapse__tab" data-tab="1"
+                                                                                                 role="tabpanel" aria-labelledby="elementor-tab-title-2431">
+                                                                                                Dexfiat uses Transfer to enable user deposit and withdrawal but buying and selling of DNGN products. The automatic market maker automatically pairs users to users and validates deposits on the paid users account, which eliminates fraud in the P2P space.
+                                                                                            </div>
                                                                                         </div>
-                                                                                        
+                                                                                        <div class="elementor-toggle-item collapse__faq">
+                                                                                            <div id="elementor-tab-title-2431 " class="d-flex align-items-center elementor-tab-title" data-tab="1" role="tab"
+                                                                                                 aria-controls="elementor-tab-content-2431 " aria-expanded="false">
+                                                                                                <span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+                                                                                                    <span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+                                                                                                    <span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+                                                                                                </span>
+                                                                                                <div class="elementor-toggle-title p-1 p-md-2">Can I cash-out my DNGN or any other synthetic fiat on the Dexfiat wallet?</div></div>
+                                                                                            <div id="elementor-tab-content-2431" class="elementor-tab-content elementor-clearfix collapse__tab" data-tab="1"
+                                                                                                 role="tabpanel" aria-labelledby="elementor-tab-title-2431">
+                                                                                                Yes, Users can sell off their DNGN holdings in the automated P2P market maker on Dexfiat P2P to receive equivalent amounts in their registered account.
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="elementor-toggle-item collapse__faq">
+                                                                                            <div id="elementor-tab-title-2431 " class="d-flex align-items-center elementor-tab-title" data-tab="1" role="tab"
+                                                                                                 aria-controls="elementor-tab-content-2431 " aria-expanded="false">
+                                                                                                <span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+                                                                                                    <span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+                                                                                                    <span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+                                                                                                </span>
+                                                                                                <div class="elementor-toggle-title p-1 p-md-2">Can I send DNGN out of Dexfiat to another Non-Dexfiat wallet?</div></div>
+                                                                                            <div id="elementor-tab-content-2431" class="elementor-tab-content elementor-clearfix collapse__tab" data-tab="1"
+                                                                                                 role="tabpanel" aria-labelledby="elementor-tab-title-2431">
+                                                                                                Yes, Users can sell off their DNGN holdings in the automated P2P market maker on Dexfiat P2P to receive equivalent amounts in their registered account.
+                                                                                            </div>
+                                                                                        </div>
+
+                                                                                        <div class="col-md-12 mt-3"></div>
+                                                                                        <h4 class="">DFT Token</h4>
+                                                                                        <p>The DFT token is the token that powers the Dexfiat ecosystem</p>
 
                                                                                         <div class="elementor-toggle-item collapse__faq">
-                                                                                            <div id="elementor-tab-title-2431 " class="d-flex align-items-center elementor-tab-title" data-tab="1" role="tab" aria-controls="elementor-tab-content-2431 " aria-expanded="false"> <span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true"> <span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span> <span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span> </span> <div class="elementor-toggle-title">What cryptocurrencies can I use to purchase?</div></div>
-                                                                                            <div id="elementor-tab-content-2431" class="elementor-tab-content elementor-clearfix collapse__tab" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-2431">DexFiat can be use to purchase and swap any type of cryptocurrencies listed on the exchange.</div>
+                                                                                            <div id="elementor-tab-title-2431 " class="d-flex align-items-center elementor-tab-title" data-tab="1" role="tab"
+                                                                                                 aria-controls="elementor-tab-content-2431 " aria-expanded="false">
+                                                                                                <span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+                                                                                                    <span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+                                                                                                    <span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+                                                                                                </span>
+                                                                                                <div class="elementor-toggle-title p-1 p-md-2">Will the maximum supply of DFT in circulation ever change?</div></div>
+                                                                                            <div id="elementor-tab-content-2431" class="elementor-tab-content elementor-clearfix collapse__tab" data-tab="1"
+                                                                                                 role="tabpanel" aria-labelledby="elementor-tab-title-2431">
+                                                                                                No, the maximum amount of DFT in circulation will never be increased and new DFT tokens will not appear on the market.
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="elementor-toggle-item collapse__faq">
+                                                                                            <div id="elementor-tab-title-2431 " class="d-flex align-items-center elementor-tab-title" data-tab="1" role="tab"
+                                                                                                 aria-controls="elementor-tab-content-2431 " aria-expanded="false">
+                                                                                                <span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+                                                                                                    <span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+                                                                                                    <span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+                                                                                                </span>
+                                                                                                <div class="elementor-toggle-title p-1 p-md-2">What is the starting and ending amount of DFT in circulation?</div></div>
+                                                                                            <div id="elementor-tab-content-2431" class="elementor-tab-content elementor-clearfix collapse__tab" data-tab="1"
+                                                                                                 role="tabpanel" aria-labelledby="elementor-tab-title-2431">
+                                                                                                The initial supply is 22 million (22,000,000) DFT. The final supply will be 7 million (7,000,000) DFT tokens.
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="elementor-toggle-item collapse__faq">
+                                                                                            <div id="elementor-tab-title-2431 " class="d-flex align-items-center elementor-tab-title" data-tab="1" role="tab"
+                                                                                                 aria-controls="elementor-tab-content-2431 " aria-expanded="false">
+                                                                                                <span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+                                                                                                    <span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+                                                                                                    <span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+                                                                                                </span>
+                                                                                                <div class="elementor-toggle-title p-1 p-md-2">How will the amount of DFT decrease?</div></div>
+                                                                                            <div id="elementor-tab-content-2431" class="elementor-tab-content elementor-clearfix collapse__tab" data-tab="1"
+                                                                                                 role="tabpanel" aria-labelledby="elementor-tab-title-2431">
+                                                                                                The supply of DFT tokens will decrease through their burning achieved due to the progressive deflation and the system of repurchase and burning of tokens by the company.
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="elementor-toggle-item collapse__faq">
+                                                                                            <div id="elementor-tab-title-2431 " class="d-flex align-items-center elementor-tab-title" data-tab="1" role="tab"
+                                                                                                 aria-controls="elementor-tab-content-2431 " aria-expanded="false">
+                                                                                                <span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+                                                                                                    <span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+                                                                                                    <span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+                                                                                                </span>
+                                                                                                <div class="elementor-toggle-title p-1 p-md-2">When is the 0.03% fee charged?</div></div>
+                                                                                            <div id="elementor-tab-content-2431" class="elementor-tab-content elementor-clearfix collapse__tab" data-tab="1"
+                                                                                                 role="tabpanel" aria-labelledby="elementor-tab-title-2431">
+                                                                                                Each transaction in the pool requires a maker fee of 0.03% which will be paid to the liquidity providers.
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="elementor-toggle-item collapse__faq">
+                                                                                            <div id="elementor-tab-title-2431 " class="d-flex align-items-center elementor-tab-title" data-tab="1" role="tab"
+                                                                                                 aria-controls="elementor-tab-content-2431 " aria-expanded="false">
+                                                                                                <span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+                                                                                                    <span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+                                                                                                    <span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+                                                                                                </span>
+                                                                                                <div class="elementor-toggle-title p-1 p-md-2">When is 2% fees charged?</div></div>
+                                                                                            <div id="elementor-tab-content-2431" class="elementor-tab-content elementor-clearfix collapse__tab" data-tab="1"
+                                                                                                 role="tabpanel" aria-labelledby="elementor-tab-title-2431">
+                                                                                                Each transaction involving DFT tokens is subject to a fee of 2% of the total transaction value (50% of this fee is burned out, another 50% is redistributed through the DFT staking platform).
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="elementor-toggle-item collapse__faq">
+                                                                                            <div id="elementor-tab-title-2431 " class="d-flex align-items-center elementor-tab-title" data-tab="1" role="tab"
+                                                                                                 aria-controls="elementor-tab-content-2431 " aria-expanded="false">
+                                                                                                <span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+                                                                                                    <span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+                                                                                                    <span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+                                                                                                </span>
+                                                                                                <div class="elementor-toggle-title p-1 p-md-2">Can I use the DNGN to buy any listed currency on the Dexfiat platform?</div></div>
+                                                                                            <div id="elementor-tab-content-2431" class="elementor-tab-content elementor-clearfix collapse__tab" data-tab="1"
+                                                                                                 role="tabpanel" aria-labelledby="elementor-tab-title-2431">
+                                                                                                Yes, the DNGN can be used to buy any token or coin listed. though, there is no direct pairing of synthetic Fiat (DNGN, DUSD, DZAR etc) to another Synthetic fiat but users can still buy them following an automated route for example DNGN>DFT>DUSD. DFT is the intermediary token between the all  Synthetic fiat transaction. All synthetic token transactions between users of the same token type are free but all external transactions outside the same tokens attract a 2% fee in DFT while transacting a synthetic fiat to another token or coin.
+                                                                                            </div>
                                                                                         </div>
 
+                                                                                        <div class="col-md-12 mt-3"></div>
+                                                                                        <h4 class="">How To Buy</h4>
                                                                                         <div class="elementor-toggle-item collapse__faq">
-                                                                                            <div id="elementor-tab-title-2431 " class="d-flex align-items-center elementor-tab-title" data-tab="1" role="tab" aria-controls="elementor-tab-content-2431 " aria-expanded="false"> <span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true"> <span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span> <span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span> </span> <div class="elementor-toggle-title">How can I participate in the IDO Token sale?</div></div>
-                                                                                            <div id="elementor-tab-content-2431" class="elementor-tab-content elementor-clearfix collapse__tab" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-2431">DexFiat does not perform ICO, but is open to private sale.</div>
+                                                                                            <div id="elementor-tab-title-2431 " class="d-flex align-items-center elementor-tab-title" data-tab="1" role="tab"
+                                                                                                 aria-controls="elementor-tab-content-2431 " aria-expanded="false">
+                                                                                                <span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+                                                                                                    <span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+                                                                                                    <span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+                                                                                                </span>
+                                                                                                <div class="elementor-toggle-title p-1 p-md-2">Where can I buy the DFT token?</div></div>
+                                                                                            <div id="elementor-tab-content-2431" class="elementor-tab-content elementor-clearfix collapse__tab" data-tab="1"
+                                                                                                 role="tabpanel" aria-labelledby="elementor-tab-title-2431">
+                                                                                                The Dexfiat DFT token will be listed on Dexfiat and Uniswap, as Dexfiat DFT is intended to be multi network token, DFT is launched on Harmony blockchain and will later be launched on Solana and possibly Binance smart chain.
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="elementor-toggle-item collapse__faq">
+                                                                                            <div id="elementor-tab-title-2431 " class="d-flex align-items-center elementor-tab-title" data-tab="1" role="tab"
+                                                                                                 aria-controls="elementor-tab-content-2431 " aria-expanded="false">
+                                                                                                <span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+                                                                                                    <span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+                                                                                                    <span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+                                                                                                </span>
+                                                                                                <div class="elementor-toggle-title p-1 p-md-2">Which private wallet do I need to have?</div></div>
+                                                                                            <div id="elementor-tab-content-2431" class="elementor-tab-content elementor-clearfix collapse__tab" data-tab="1"
+                                                                                                 role="tabpanel" aria-labelledby="elementor-tab-title-2431">
+                                                                                                In order to make a transaction on Dexfiat or Uniswap you must have a private wallet that supports HRC-20 or ERC20 protocol, e.g. Dexfiat wallet or MetaMask.
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="elementor-toggle-item collapse__faq">
+                                                                                            <div id="elementor-tab-title-2431 " class="d-flex align-items-center elementor-tab-title" data-tab="1" role="tab"
+                                                                                                 aria-controls="elementor-tab-content-2431 " aria-expanded="false">
+                                                                                                <span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+                                                                                                    <span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+                                                                                                    <span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+                                                                                                </span>
+                                                                                                <div class="elementor-toggle-title p-1 p-md-2">At what level should the slippage tolerance be set?</div></div>
+                                                                                            <div id="elementor-tab-content-2431" class="elementor-tab-content elementor-clearfix collapse__tab" data-tab="1"
+                                                                                                 role="tabpanel" aria-labelledby="elementor-tab-title-2431">
+                                                                                                We recommend setting the "slippage" tolerance on at least 2-5%, and in conditions of higher network load, even up to 8%.
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="elementor-toggle-item collapse__faq">
+                                                                                            <div id="elementor-tab-title-2431 " class="d-flex align-items-center elementor-tab-title" data-tab="1" role="tab"
+                                                                                                 aria-controls="elementor-tab-content-2431 " aria-expanded="false">
+                                                                                                <span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+                                                                                                    <span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+                                                                                                    <span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+                                                                                                </span>
+                                                                                                <div class="elementor-toggle-title p-1 p-md-2">How can I pay for the tokens?</div></div>
+                                                                                            <div id="elementor-tab-content-2431" class="elementor-tab-content elementor-clearfix collapse__tab" data-tab="1"
+                                                                                                 role="tabpanel" aria-labelledby="elementor-tab-title-2431">
+                                                                                                Payment must be made by using the Harmony or Ethereum cryptocurrency - ONE or ETH
+                                                                                            </div>
                                                                                         </div>
 
+                                                                                        <div class="col-md-12 mt-3"></div>
+                                                                                        <h4 class="">Staking</h4>
                                                                                         <div class="elementor-toggle-item collapse__faq">
-                                                                                            <div id="elementor-tab-title-2431 " class="d-flex align-items-center elementor-tab-title" data-tab="1" role="tab" aria-controls="elementor-tab-content-2431 " aria-expanded="false"> <span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true"> <span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span> <span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span> </span> <div class="elementor-toggle-title">Will dexfiat give airdrop</div></div>
-                                                                                            <div id="elementor-tab-content-2431" class="elementor-tab-content elementor-clearfix collapse__tab" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-2431">Yes, Dexfiat will give all protocol users airdrop between the launch and stipulated period which will be announce on the social media platforms.</div>
+                                                                                            <div id="elementor-tab-title-2431 " class="d-flex align-items-center elementor-tab-title" data-tab="1" role="tab"
+                                                                                                 aria-controls="elementor-tab-content-2431 " aria-expanded="false">
+                                                                                                <span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+                                                                                                    <span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+                                                                                                    <span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+                                                                                                </span>
+                                                                                                <div class="elementor-toggle-title p-1 p-md-2">How many tokens can I stake?</div></div>
+                                                                                            <div id="elementor-tab-content-2431" class="elementor-tab-content elementor-clearfix collapse__tab" data-tab="1"
+                                                                                                 role="tabpanel" aria-labelledby="elementor-tab-title-2431">
+                                                                                                The minimum number of tokens necessary to stake on the platform is 5,000 DFT. The upper limit is not specified
+                                                                                            </div>
                                                                                         </div>
+                                                                                        <div class="elementor-toggle-item collapse__faq">
+                                                                                            <div id="elementor-tab-title-2431 " class="d-flex align-items-center elementor-tab-title" data-tab="1" role="tab"
+                                                                                                 aria-controls="elementor-tab-content-2431 " aria-expanded="false">
+                                                                                                <span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+                                                                                                    <span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+                                                                                                    <span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+                                                                                                </span>
+                                                                                                <div class="elementor-toggle-title p-1 p-md-2">How is redistribution working?</div></div>
+                                                                                            <div id="elementor-tab-content-2431" class="elementor-tab-content elementor-clearfix collapse__tab" data-tab="1"
+                                                                                                 role="tabpanel" aria-labelledby="elementor-tab-title-2431">
+                                                                                                With the launch of Staking Platform  all tokens that have been collected in the form of a 1% fee on the total value of all transactions based on DFT in the previous month will go to the redistribution pool. Then, this pool will be distributed throughout the following month to all stakers on the platform - proportionally. This process will be repeated monthly.
+                                                                                            </div>
+                                                                                        </div>
+
+                                                                                        <div class="col-md-12 mt-3"></div>
+                                                                                        <h4 class="">Others</h4>
+                                                                                        <div class="elementor-toggle-item collapse__faq">
+                                                                                            <div id="elementor-tab-title-2431 " class="d-flex align-items-center elementor-tab-title" data-tab="1" role="tab"
+                                                                                                 aria-controls="elementor-tab-content-2431 " aria-expanded="false">
+                                                                                                <span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+                                                                                                    <span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+                                                                                                    <span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+                                                                                                </span>
+                                                                                                <div class="elementor-toggle-title p-1 p-md-2">Why am I receiving private messages from alleged members of the DFT team?</div></div>
+                                                                                            <div id="elementor-tab-content-2431" class="elementor-tab-content elementor-clearfix collapse__tab" data-tab="1"
+                                                                                                 role="tabpanel" aria-labelledby="elementor-tab-title-2431">
+                                                                                                This is NOT the Dexfiat team. There are many scammers on Telegram and other platforms who impersonate team members. None  of the Dexfiat  team will ever ask you for money or private keys. We recommend being extremely careful!
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="elementor-toggle-item collapse__faq">
+                                                                                            <div id="elementor-tab-title-2431 " class="d-flex align-items-center elementor-tab-title" data-tab="1" role="tab"
+                                                                                                 aria-controls="elementor-tab-content-2431 " aria-expanded="false">
+                                                                                                <span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+                                                                                                    <span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+                                                                                                    <span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+                                                                                                </span>
+                                                                                                <div class="elementor-toggle-title p-1 p-md-2">Where can I find official communication channels?</div></div>
+                                                                                            <div id="elementor-tab-content-2431" class="elementor-tab-content elementor-clearfix collapse__tab" data-tab="1"
+                                                                                                 role="tabpanel" aria-labelledby="elementor-tab-title-2431">
+                                                                                                Redirect icons are in the footer of the page, our official social channels are on Telegram, Twitter, Medium, Discord and YouTube. We encourage you to follow us on all communication channels.
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="elementor-toggle-item collapse__faq">
+                                                                                            <div id="elementor-tab-title-2431 " class="d-flex align-items-center elementor-tab-title" data-tab="1" role="tab"
+                                                                                                 aria-controls="elementor-tab-content-2431 " aria-expanded="false">
+                                                                                                <span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+                                                                                                    <span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+                                                                                                    <span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+                                                                                                </span>
+                                                                                                <div class="elementor-toggle-title p-1 p-md-2">Where will I get the answer to my question the fastest?</div></div>
+                                                                                            <div id="elementor-tab-content-2431" class="elementor-tab-content elementor-clearfix collapse__tab" data-tab="1"
+                                                                                                 role="tabpanel" aria-labelledby="elementor-tab-title-2431">
+                                                                                                At the moment, the fastest way to communicate is to join our Telegram group and ask a question in the chat. We will answer all your questions immediately or almost immediately.
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="elementor-toggle-item collapse__faq">
+                                                                                            <div id="elementor-tab-title-2431 " class="d-flex align-items-center elementor-tab-title" data-tab="1" role="tab"
+                                                                                                 aria-controls="elementor-tab-content-2431 " aria-expanded="false">
+                                                                                                <span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+                                                                                                    <span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+                                                                                                    <span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+                                                                                                </span>
+                                                                                                <div class="elementor-toggle-title p-1 p-md-2">Where can I find more information about the project?</div></div>
+                                                                                            <div id="elementor-tab-content-2431" class="elementor-tab-content elementor-clearfix collapse__tab" data-tab="1"
+                                                                                                 role="tabpanel" aria-labelledby="elementor-tab-title-2431">
+                                                                                                We encourage you to check out our WhitePaper - you will find fully detailed information there about Dexfiat; you can always ask a question directly in our social groups.
+                                                                                            </div>
+                                                                                        </div>
+
+
+
+
+
+
+
+                                                                                        <!--<div class="elementor-toggle-item collapse__faq">-->
+                                                                                            <!--<div id="elementor-tab-title-2431 " class="d-flex align-items-center elementor-tab-title" data-tab="1" role="tab" aria-controls="elementor-tab-content-2431 " aria-expanded="false"> <span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true"> <span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span> <span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span> </span> <div class="elementor-toggle-title">What cryptocurrencies can I use to purchase?</div></div>-->
+                                                                                            <!--<div id="elementor-tab-content-2431" class="elementor-tab-content elementor-clearfix collapse__tab" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-2431">DexFiat can be use to purchase and swap any type of cryptocurrencies listed on the exchange.</div>-->
+                                                                                        <!--</div>-->
+
+                                                                                        <!--<div class="elementor-toggle-item collapse__faq">-->
+                                                                                            <!--<div id="elementor-tab-title-2431 " class="d-flex align-items-center elementor-tab-title" data-tab="1" role="tab" aria-controls="elementor-tab-content-2431 " aria-expanded="false"> <span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true"> <span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span> <span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span> </span> <div class="elementor-toggle-title">How can I participate in the IDO Token sale?</div></div>-->
+                                                                                            <!--<div id="elementor-tab-content-2431" class="elementor-tab-content elementor-clearfix collapse__tab" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-2431">DexFiat does not perform ICO, but is open to private sale.</div>-->
+                                                                                        <!--</div>-->
+
+                                                                                        <!--<div class="elementor-toggle-item collapse__faq">-->
+                                                                                            <!--<div id="elementor-tab-title-2431 " class="d-flex align-items-center elementor-tab-title" data-tab="1" role="tab" aria-controls="elementor-tab-content-2431 " aria-expanded="false"> <span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true"> <span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span> <span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span> </span> <div class="elementor-toggle-title">Will dexfiat give airdrop</div></div>-->
+                                                                                            <!--<div id="elementor-tab-content-2431" class="elementor-tab-content elementor-clearfix collapse__tab" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-2431">Yes, Dexfiat will give all protocol users airdrop between the launch and stipulated period which will be announce on the social media platforms.</div>-->
+                                                                                        <!--</div>-->
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-cd9f74f animated fadeIn" data-id="cd9f74f" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;}">
+                                                                <div class="elementor-column elementor-col-40 elementor-inner-column elementor-element elementor-element-cd9f74f animated fadeIn" data-id="cd9f74f" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;}">
                                                                     <div class="elementor-column-wrap elementor-element-populated">
                                                                         <div class="elementor-widget-wrap">
                                                                             <div class="elementor-element elementor-element-20cef1b elementor-widget elementor-widget-image animated fadeIn" data-id="20cef1b" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="image.default">
@@ -553,7 +967,7 @@
                                                                         <div class="elementor-widget-wrap">
                                                                             <div class="elementor-element elementor-element-8c050f1 elementor-widget elementor-widget-heading animated fadeInUp" data-id="8c050f1" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default" data-aos="fade-down"  data-aos-duration="1500">
                                                                                 <div class="elementor-widget-container">
-                                                                                    <h2 class="elementor-heading-title elementor-size-default">Find out more</h2>
+                                                                                    <h2 class="elementor-heading-title elementor-size-default">Road Map</h2>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="elementor-element elementor-element-ce95a67 elementor-widget__width-initial elementor-widget elementor-widget-heading animated fadeInUp" data-id="ce95a67" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
@@ -670,7 +1084,7 @@
                                                                 <div class="time">
                                                                     <h6 class="">Q3 2020</h6>
                                                                 </div>
-                                                                
+
                                                             </div>
 
                                                             <div class="roadmap__item d-flex justify-content-between">
@@ -686,6 +1100,43 @@
                                                                 </div>
                                                             </div>
 
+                                                            <!--<div class="roadmap__item d-flex justify-content-between">-->
+
+                                                            <!--<div class="time">-->
+                                                            <!--<h6 class="">Q1, 2021</h6>-->
+                                                            <!--</div>-->
+                                                            <!--<div class="idea">-->
+                                                            <!--<h6>Dexfiat Wallet UI/UX</h6>-->
+                                                            <!--<p>-->
+                                                            <!--Dexfiat wallet User Interface design-->
+                                                            <!--</p>-->
+                                                            <!--</div>-->
+                                                            <!--</div>-->
+
+                                                            <!--<div class="roadmap__item d-flex justify-content-between">-->
+
+                                                            <!--<div class="time">-->
+                                                            <!--<h6 class="">Q1, 2021</h6>-->
+                                                            <!--</div>-->
+                                                            <!--<div class="idea">-->
+                                                            <!--<h6>Token creation and deployment</h6>-->
+                                                            <!--<p>-->
+                                                            <!--Token creation and deployment on testnet and main-net-->
+                                                            <!--</p>-->
+                                                            <!--</div>-->
+                                                            <!--</div>-->
+
+                                                            <!--<div class="roadmap__item d-flex justify-content-between">-->
+                                                            <!--<div class="time">-->
+                                                            <!--<h6 class="">Q1, 2021</h6>-->
+                                                            <!--</div>-->
+                                                            <!--<div class="idea">-->
+                                                            <!--<h6>DEX and P2P dex deployment on Testnet</h6>-->
+                                                            <!--<p>-->
+                                                            <!--DEX and P2P dex deployment on Testnet-->
+                                                            <!--</p>-->
+                                                            <!--</div>-->
+                                                            <!--</div>-->
 
                                                             <div class="roadmap__item d-flex justify-content-between">
                                                                 <div class="idea">
@@ -695,12 +1146,12 @@
                                                                         Building the MVP
                                                                     </p>
                                                                 </div>
-                                                                
+
 
                                                                 <div class="time">
                                                                     <h6 class="">H1/Q1, 2021</h6>
                                                                 </div>
-                                                                
+
                                                             </div>
 
                                                             <div class="roadmap__item d-flex justify-content-between">
@@ -714,7 +1165,18 @@
                                                                         Dexfiat Wallet, & Smart contract,& Fiat integration.
                                                                     </p>
                                                                 </div>
-                                                                
+                                                            </div>
+
+                                                            <div class="roadmap__item d-flex justify-content-between">
+                                                                <div class="time">
+                                                                    <h6 class="">Q1, 2021</h6>
+                                                                </div>
+                                                                <div class="idea">
+                                                                    <h6>Testnet auditing</h6>
+                                                                    <p>
+                                                                        Testnet Auditing
+                                                                    </p>
+                                                                </div>
                                                             </div>
 
                                                             <div class="roadmap__item d-flex justify-content-between">
@@ -724,12 +1186,12 @@
                                                                         Airdrop distribution.
                                                                     </p>
                                                                 </div>
-                                                                
+
 
                                                                 <div class="time">
                                                                     <h6 class="">H2/Q4, 2021</h6>
                                                                 </div>
-                                                                
+
                                                             </div>
 
                                                             <div class="roadmap__item d-flex justify-content-between">
@@ -744,7 +1206,7 @@
                                                                         Platform publicity incentive activity.
                                                                     </p>
                                                                 </div>
-                                                                
+
                                                             </div>
 
                                                             <div class="roadmap__item d-flex justify-content-between">
@@ -755,12 +1217,12 @@
                                                                         Affiliate incentivisations.
                                                                     </p>
                                                                 </div>
-                                                                
+
 
                                                                 <div class="time">
                                                                     <h6 class="">Q3, 2021</h6>
                                                                 </div>
-                                                                
+
                                                             </div>
 
                                                             <div class="roadmap__item d-flex justify-content-between">
@@ -775,7 +1237,7 @@
                                                                         Ethereum tokens support
                                                                     </p>
                                                                 </div>
-                                                                
+
                                                             </div>
 
                                                             <div class="roadmap__item d-flex justify-content-between">
@@ -789,7 +1251,7 @@
                                                                 <div class="time">
                                                                     <h6 class="">Q2 2022</h6>
                                                                 </div>
-                                                                
+
                                                             </div>
 
                                                             <div class="roadmap__item d-flex justify-content-between">
@@ -804,7 +1266,7 @@
                                                                         Marketplace cooperative module
                                                                     </p>
                                                                 </div>
-                                                                
+
                                                             </div>
 
                                                             <div class="roadmap__item d-flex justify-content-between">
@@ -814,21 +1276,21 @@
                                                                         Main-network dev
                                                                     </p>
                                                                 </div>
-                                                                
+
 
                                                                 <div class="time">
                                                                     <h6 class="">Q2 2022</h6>
                                                                 </div>
                                                             </div>
-                                                            
+
                                                             <!-- <p>Shoober shooberino adorable doggo many pats, heckin good boys many pats pupper wrinkler, corgo maximum borkdrive. A frighten puggo wow very biscit.</p>
                                                             <p>Big ol h*ck adorable doggo vvv smol borking doggo with a long snoot for pats big ol, he made many woofs doing me a frighten puggo wow very biscit, ruff fat boi ruff long doggo. </p>
                                                             <p>Long bois mlem I am bekom fat wrinkler puggo maximum borkdrive big ol pupper I am bekom fat, fluffer vvv adorable doggo lotsa pats snoot. I am bekom fat ur givin me a spook length boy wow very biscit very good spot.</p>
                                                             <p>Doggo ipsum long bois lotsa pats blep. What a nice floof ruff super chub very good spot, the neighborhood pupper lotsa pats. Borkdrive shibe shoober what a nice floof, borking doggo.</p> -->
-                                                          </main>
+                                                        </main>
                                                     </section>
 
-                                                   
+
                                                 </div>
                                             </div>
                                         </div>
@@ -841,7 +1303,7 @@
                                         <h2 class="elementor-heading-title elementor-size-default text-white mb-5 text-center">Our Team</h2>
                                     </div>
 
-                                    <div class="pb-5 pt-5" data-aos="fade-up-right"  data-aos-duration="1500">
+                                    <div class="pb-md-5 pb-0 pt-5" data-aos="fade-up-right"  data-aos-duration="1500">
                                         <div class="col-lg-4 col-md-6 col-12 box wow">
                                             <div class="box-inner team__member">
                                                 <img src="images/seyi.jpeg" class=" d-block mx-auto mb-0" style="object-position: center top;">
@@ -849,7 +1311,7 @@
                                                     <p class="pt-5"><b>Oluwaseyi Falola</b><br> Founder</p>
                                                     <!--<p>A global keynote speaker. 6+ years as a foreign currency analyst. Worked with major UK brands &amp; universities.</p>-->
                                                 </div>
-                                                
+
                                             </div>
                                         </div>
 
@@ -860,7 +1322,7 @@
                                                     <p class="pt-5"><b>Alofe Oluwafemi</b><br> Frontend Developer</p>
                                                     <!--<p>A global keynote speaker. 6+ years as a foreign currency analyst. Worked with major UK brands &amp; universities.</p>-->
                                                 </div>
-                                                
+
                                             </div>
                                         </div>
 
@@ -874,7 +1336,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="pb-5 pt-5" data-aos="fade-up-right"  data-aos-duration="1500">
+                                    <div class="pb-5 pt-md-5 pt-0" data-aos="fade-up-right"  data-aos-duration="1500">
                                         <div class="col-lg-4 col-md-6 col-12 box wow">
                                             <div class="box-inner team__member">
                                                 <img src="images/forensic.jpeg" class=" d-block mx-auto mb-0" style="object-position: center top;">
@@ -897,14 +1359,14 @@
                                         </div>
 
                                         <!--<div class="col-lg-4 col-md-6 col-12 box wow">-->
-                                            <!--<div class="box-inner team__member">-->
-                                                <!--<img src="images/processor.jpg" class=" d-block mx-auto mb-0" style="object-position: center top;">-->
-                                                <!--<div class="px-5 py-5">-->
-                                                    <!--<p class="pt-5"><b>Damilola Processor</b><br> Smart Contract Developer</p>-->
-                                                    <!--<p>A global keynote speaker. 6+ years as a foreign currency analyst. Worked with major UK brands &amp; universities.</p>-->
-                                                <!--</div>-->
+                                        <!--<div class="box-inner team__member">-->
+                                        <!--<img src="images/processor.jpg" class=" d-block mx-auto mb-0" style="object-position: center top;">-->
+                                        <!--<div class="px-5 py-5">-->
+                                        <!--<p class="pt-5"><b>Damilola Processor</b><br> Smart Contract Developer</p>-->
+                                        <!--<p>A global keynote speaker. 6+ years as a foreign currency analyst. Worked with major UK brands &amp; universities.</p>-->
+                                        <!--</div>-->
 
-                                            <!--</div>-->
+                                        <!--</div>-->
                                         <!--</div>-->
                                     </div>
                                 </div>
@@ -921,7 +1383,7 @@
                                                             <h2 class="elementor-heading-title elementor-size-default">Safe / Secure / Fast</h2>
                                                         </div>
                                                     </div>
-                                                    <div class="elementor-element elementor-element-e1831cb elementor-widget__width-initial elementor-widget elementor-widget-heading animated fadeIn" data-id="e1831cb" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:100}" data-widget_type="heading.default">
+                                                    <div id="footer-element" class="elementor-element elementor-element-e1831cb elementor-widget__width-initial elementor-widget elementor-widget-heading animated fadeIn" data-id="e1831cb" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:100}" data-widget_type="heading.default">
                                                         <div class="elementor-widget-container">
                                                             <h1 class="elementor-heading-title elementor-size-default">A Decentralized Crypto and Fiat gateway.</h1>
                                                         </div>
@@ -930,32 +1392,32 @@
                                                         <div class="elementor-widget-container">
                                                             <!-- <p class="elementor-heading-title elementor-size-default">Aliquam hendrerit ligula eu lobortis maximus. Praesent elementum rhoncus convallis. Vivamus sit amet malesuada augue, id sollicitudin nunc. Quisque vehicula velit id scelerisque.</p> -->
 
-                                                            <ul class="socials__foot m-0 p-0 d-flex mt-4">
+                                                            <ul class="socials__foot m-0 p-0 d-flex mt-md-4">
                                                                 <a href="https://t.me/dexfiatofficial" class="mr-5" target="_blank">
                                                                     <li class="d-flex align-items-center">
-                                                                        <img src="images/telegram.svg" alt="" class="mr-2">
-                                                                        <span>Telegram</span>
+                                                                        <img src="images/telegram.svg" alt="" class="mr-md-2">
+                                                                        <span class="d-none d-md-block">Telegram</span>
                                                                     </li>
                                                                 </a>
 
                                                                 <a href="https://twitter.com/Dexfiat" class="mr-5" target="_blank">
                                                                     <li class="d-flex align-items-center">
-                                                                        <img src="images/twitter.svg" alt="" class="mr-2">
-                                                                        <span>Twitter</span>
+                                                                        <img src="images/twitter.svg" alt="" class="mr-md-2">
+                                                                        <span class="d-none d-md-block">Twitter</span>
                                                                     </li>
                                                                 </a>
 
                                                                 <a href="https://medium.com/Dexfiat" class="mr-5" target="_blank">
                                                                     <li class="d-flex align-items-center">
-                                                                        <img src="images/medium.svg" alt="" class="mr-2">
-                                                                        <span>Medium</span>
+                                                                        <img src="images/medium.svg" alt="" class="mr-md-2">
+                                                                        <span class="d-none d-md-block">Medium</span>
                                                                     </li>
                                                                 </a>
 
                                                                 <a href="#" class="mr-5" target="_blank">
                                                                     <li class="d-flex align-items-center">
                                                                         <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="20" height="20" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path xmlns="http://www.w3.org/2000/svg" d="m12 .5c-6.63 0-12 5.28-12 11.792 0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56 4.801-1.548 8.236-5.97 8.236-11.173 0-6.512-5.373-11.792-12-11.792z" fill="#ffffff" data-original="#212121" style="" class=""></path><script type="text/javascript" src="chrome-extension://fnnegphlobjdpkhecapkijjdkgcjhkib/inject-script.js"></script></g></svg>
-                                                                        <span class="ml-2">Github</span>
+                                                                        <span class="ml-md-2 d-none d-md-block">Github</span>
                                                                     </li>
                                                                 </a>
 
@@ -970,7 +1432,7 @@
                                                 <div class="elementor-widget-wrap">
                                                     <div class="elementor-element elementor-element-36a6758 elementor-align-right elementor-mobile-align-left elementor-widget elementor-widget-button animated fadeIn" data-id="36a6758" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="button.default">
                                                         <div class="elementor-widget-container">
-                                                            <div class="elementor-button-wrapper"> <a href="https://demo.themovation.com/stratus/contact-dark/" class="elementor-button-link elementor-button elementor-size-lg" role="button"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-icon elementor-align-icon-right"> <i aria-hidden="true" class="fas fa-arrow-right"></i>		</span> <span class="elementor-button-text">Join Whitelist</span> </span> </a></div>
+                                                            <div class="elementor-button-wrapper"> <a href="https://forms.gle/f51M3gwiqZrH3VxH6" class="elementor-button-link elementor-button elementor-size-lg" role="button"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-icon elementor-align-icon-right"> <i aria-hidden="true" class="fas fa-arrow-right"></i>		</span> <span class="elementor-button-text">Join Whitelist</span> </span> </a></div>
                                                         </div>
                                                     </div>
                                                 </div>

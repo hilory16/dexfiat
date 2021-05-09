@@ -98,7 +98,6 @@ header nav ul a:hover {
 }
 .roadmap .roadmap__item:nth-child(2):before, .roadmap .roadmap__item:first-child:before {
   background-image: url("../images/check.svg");
-  background-color: #fff;
 }
 .roadmap .roadmap__item:before {
   content: "";
